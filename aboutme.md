@@ -91,7 +91,7 @@ Here, we plot the evolution of counts of movies through time, for each genre.
 By comparing these plots to the "Number of Terrorism-Related Movies per Year" in section **Introduction**, the number of terrorism-related movies for each genre follow the same general trend as for all terrorism-related movies together. Indeed, we see a net increase of movies over time for all genres. We notice that some genres are more prevalent than others (Drama, Thriller, Action/Adventure and Horror), but we don't see one specific genre that has a different time series compared to the others.
 To conclude, the representation of terrorism in various genres have the same evolution over time. We don't notice any specific genre that stands out in this matter.
 
-### Conclusion on Genre Analysis
+### Conclusion:
 And that's a wrap on our Genre Analysis!
 
 So, what have we learned? When it comes to terrorism movies, Drama is the most prevalent movie genre, in both terrorism- and non-terrorism-relatd movies. It seems that whether our protagonists are diffusing a bomb or a dramatic love triangle, we just can't get enough of those emotional rollercoasters. 
@@ -112,6 +112,3 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 -----------------
 ## 4. Emotional Depiction - The Tearjerker ot the Fist-Pumper?
 ##### Here, we unpack the emotional suitcase of terrorism in films. Do these movies make you grab a tissue, or are they more likely to have you cheering from your seat? And let's not forget the regional flavors – is a terrorism movie in Hollywood spicier than its Bollywood counterpart?
-
-![image](https://github.com/aishamasmoudi/AISHAMASMOUDI.github.io/assets/92583412/72b9a0f8-7910-4b6c-b78b-2bdfbdd72b87)
-
