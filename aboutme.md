@@ -86,7 +86,7 @@ The representation of certain genres, such as Action/Adventure and Drama, across
 ### 2.3 Were some genres of terrorism movies more popular during specific periods?
 Here, we plot the evolution of counts of movies through time, for each genre. 
 
-![My Image](/assets/img/heatmaps_genres.png)
+![My Image](/assets/img/genres_time_series.png)
 
 By comparing these plots to the "Number of Terrorism-Related Movies per Year" in section **Introduction**, the number of terrorism-related movies for each genre follow the same general trend as for all terrorism-related movies together. Indeed, we see a net increase of movies over time for all genres. We notice that some genres are more prevalent than others (Drama, Thriller, Action/Adventure and Horror), but we don't see one specific genre that has a different time series compared to the others.
 To conclude, the representation of terrorism in various genres have the same evolution over time. We don't notice any specific genre that stands out in this matter.
