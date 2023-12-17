@@ -14,6 +14,9 @@ Throughout history, humans have used violence and intimidation, especially again
 Welcome to "Explosive Narratives: Terrorism through the Cinematic Lens" – where we light the fuse on the dynamite topic of terrorism in movies, without any real explosions, of course! Picture this: you're sitting in your comfy chair, popcorn in hand, ready to dive deep into the world of cinema where the only thing more thrilling than a car chase is our data-driven analysis. 
 So, grab your 3D glasses, because we're about to embark on a cinematic journey that's part data, part drama, and totally explosive – metaphorically speaking, of course! 🍿🎬💥
 
+Let's start by visualizing the counts of terrorism-related movies through time:
+<iframe src="assets/plots/terrorism_movies_time_series.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+
 -----------------
 ## Popularity Analysis - The Box Office Boom
 ### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
