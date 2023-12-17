@@ -15,7 +15,7 @@ Welcome to "Explosive Narratives: Terrorism through the Cinematic Lens" – wher
 So, grab your 3D glasses, because we're about to embark on a cinematic journey that's part data, part drama, and totally explosive – metaphorically speaking, of course! 🍿🎬💥
 
 Let's start by visualizing the counts of terrorism-related movies through time:
-<iframe src="assets/plots/terrorism_movies_time_series.html" width="750px" height="530px" frameborder="0" position="relative">Genre plot</iframe>
+![My Image](/assets/img/terrorism_movies_time_series.png)
 
 -----------------
 ## Popularity Analysis - The Box Office Boom
