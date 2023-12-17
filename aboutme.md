@@ -31,19 +31,29 @@ This plot offers a sight into how many terrorism-related movies were produced in
 
 -----------------
 ## Popularity Analysis - The Box Office Boom
-### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
+##### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
 
 -----------------
 ## Genre Association - The Movie Genre Cocktail
-### Here, we look at the genres that are associated with terrorism movies. Are they the action-packed thriller with a twist, or more of a drama on the rocks?
+
+Think of genre as secret agents; they've got all the gear - narrative elements, thematic content, stylistic approach, and the emotional response they aime to evoke in the audience. They help categorize films so that you don't end up in a rom-com when you were ready for a story high in suspense and plot twists about a hero saving thousands of people from the action of terrorists.
+
+And when it comes to terrorism movies, they sneak up on you with action, disguise themselves in drama, and occasionally, they even wear the mask of comedy before the big kaboom! Our mission is to dissect the relationship between genres and terrorism movies.
+
+So buckle up data nerds, as we dive bomb into the explosive world of movie genres! It's going to be a blast! (pun intented) 🎥💣🔍
+
+### How often does each genre appear in terrorism vs non-terrorism movies?
+### Does the prevalence of certain genres of terrorism-related movies change between world regions?
+### What about countries?
+### Were some genres of terrorism movies more popular during specific periods?
 
 -----------------
 ## Topic Patterns
-### Last but not least, we delve into the thematic jungle of terrorism movies. Are we spotting patterns, or is it as unpredictable as a plot twist in a Hitchcock film?
+##### Last but not least, we delve into the thematic jungle of terrorism movies. Are we spotting patterns, or is it as unpredictable as a plot twist in a Hitchcock film?
 
 -----------------
 ## Emotional Depiction - The Tearjerker ot the Fist-Pumper?
-### Here, we unpack the emotional suitcase of terrorism in films. Do these movies make you grab a tissue, or are they more likely to have you cheering from your seat? And let's not forget the regional flavors – is a terrorism movie in Hollywood spicier than its Bollywood counterpart?
+##### Here, we unpack the emotional suitcase of terrorism in films. Do these movies make you grab a tissue, or are they more likely to have you cheering from your seat? And let's not forget the regional flavors – is a terrorism movie in Hollywood spicier than its Bollywood counterpart?
 
 ![image](https://github.com/aishamasmoudi/AISHAMASMOUDI.github.io/assets/92583412/72b9a0f8-7910-4b6c-b78b-2bdfbdd72b87)
 
