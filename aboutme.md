@@ -15,7 +15,19 @@ Welcome to "Explosive Narratives: Terrorism through the Cinematic Lens" – wher
 So, grab your 3D glasses, because we're about to embark on a cinematic journey that's part data, part drama, and totally explosive – metaphorically speaking, of course! 🍿🎬💥
 
 Let's start by visualizing the counts of terrorism-related movies through time:
+
 ![My Image](/assets/img/terrorism_movies_time_series.png)
+
+We can observe a growing trend in the production of terrorism-related movies over the years. This could suggest a growing interest in terrorism movies in cinema, but it could however be related to the smaller number of movies provided by the CMU dataset in the 1907-1940s period. There is a dramatic increase in the early 21st century period, where the bars reach their highest points. This could be reflective of global events and the increased prevalence of terrorism in news media, telling us about the role of terrorism in the public consciousness during these times, which may have influence the film industry.
+
+![My Image](/assets/img/terrorism_movies_countries.png)
+**figure out how to insert interactive plots**
+
+As we can see, the US, followed by India, United Kingdom and Japan, are the most important countries when it comes to producing terrorism-related movies. This plot is of course a little biased, since the Hollywood and Bollywood are the most important movie production industries in the world, and they by nature produce more movies than other countries.
+
+![My Image](/assets/img/terrorism_movies_per_country.png)
+
+This plot offers a sight into how many terrorism-related movies were produced in each country.
 
 -----------------
 ## Popularity Analysis - The Box Office Boom
