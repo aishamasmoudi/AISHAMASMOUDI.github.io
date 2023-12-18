@@ -86,10 +86,13 @@ The representation of certain genres, such as Action/Adventure and Drama, across
 ### 2.3 Were some genres of terrorism movies more popular during specific periods?
 Here, we plot the evolution of counts of movies through time, for each genre. 
 
-![My Image](/assets/img/genres_time_series.png)
+![My Image](/assets/img/genre_time_series.png)
 
-By comparing these plots to the "Number of Terrorism-Related Movies per Year" in section **Introduction**, the number of terrorism-related movies for each genre follow the same general trend as for all terrorism-related movies together. Indeed, we see a net increase of movies over time for all genres. We notice that some genres are more prevalent than others (Drama, Thriller, Action/Adventure and Horror), but we don't see one specific genre that has a different time series compared to the others.
-To conclude, the representation of terrorism in various genres have the same evolution over time. We don't notice any specific genre that stands out in this matter.
+By comparing these plots to the "Number of Terrorism-Related Movies per Year" in section **Introduction**, the number of terrorism-related movies for each genre follows the same general trend as for all terrorism-related movies together. Indeed, we see a net increase of movies over time for all genres. We notice that some genres are more prevalent than others (Drama, Thriller, Action/Adventure, Horror and World cinema). 
+We notice that World cinema has had a peak in the 1990s decade. This could be due to many factors: the global political climate, with the end of the cold war, dissolution of the Soviet Union, the end of apartheid in South Africa, etc, which may have encouraged filmmakers to explore the theme of terrorism through movies; this could also be due to the rise of independent and international cinema in the 1990s (**reference**: https://nofilmschool.com/independent-movies-90s-dominate).  The 1990s saw a surge in independent filmmaking, with more films being produced outside the traditional Hollywood system. 
+Thriller, Action and Horror have a similar peak, roughly from 2005 to 2015. Drama knows a very important peak in the late 2010s.
+
+To conclude, the representation of terrorism in various genres have the same overall evolution over time, with an increase in the number of terrorism-movies of all genres. Some genres stand out with specific peaks, notably World cinema in the 1990s.
 
 ### Conclusion:
 And that's a wrap on our Genre Analysis!
@@ -101,7 +104,8 @@ Adventure and Horror genres are the next most prevalent genres of terrorism movi
 
 Globally speaking, it looks like genres representing terrorism movies are not very diverse between world regions and conutries. Drama and Thriller seem to be the universal language of 'boom'. However, we do notice some regional preferences for Action/Adventure or World Cinema. 
 
-As for the evolution of terror in films throughout time, all genres have the same trends. They are all characterized by an increase in movie counts, and no particular genre stands out when it comes to its evolution through time. Whatever the genre, it seems like audiences are always ready for narrative detonation.
+As for the evolution of terror in films throughout time, all genres have the same trend. They are all characterized by an increase in movie counts, and some genres stand out with important peaks, such as World cinema in the 1990s, Horror, Action and Thriller in the 2000-2010s, and Drama in the 2010s. 
+Whatever the genre, it seems like audiences are always ready for narrative detonation.
 
 Now, grab your popcorn and your protective gear; we're moving on to the next explosive analysis before the timer runs out! 🍿💥🎥
 
