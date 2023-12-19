@@ -154,7 +154,7 @@ To extract more detailed insights, we aim to cluster the emotional arcs of movie
 
 ![My Image](/assets/img/drama_cluster_page-0001.jpg)
 ![My Image](/assets/img/action_cluster_page-0001.jpg)
-![My Image](/assets/img/thriller_cluster_page-0001.jpg)
+![My Image](/assets/img/thriller_clusters_page-0001.jpg)
 
 
 To delve into the analysis of this plot type, we will use a terminology established by the American writer Kurt Vonnegut. Vonnegut's framework demonstrates the identification of six primary story plots, commonly known as story arcs. These arcs encompass a diverse array of narrative structures that significantly influence the emotional trajectory of a story. Kurt Vonnegut's work showcases that stories, irrespective of their genres, tend to follow specific patterns, contributing to a richer understanding of storytelling dynamics.
