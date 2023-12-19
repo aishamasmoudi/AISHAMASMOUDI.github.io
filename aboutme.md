@@ -115,4 +115,64 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 
 -----------------
 ## 4. Emotional Depiction - The Tearjerker ot the Fist-Pumper?
-##### Here, we unpack the emotional suitcase of terrorism in films. Do these movies make you grab a tissue, or are they more likely to have you cheering from your seat? And let's not forget the regional flavors – is a terrorism movie in Hollywood spicier than its Bollywood counterpart?
+
+
+### 4.1 Do the emotional tones in the cinematic representation of terrorism differ between specific countries/regions ?
+
+To gain an initial perspective, we can generate a map depicting the average sentiment score for each country within our dataset. The sentiment scores were computed utilizing Vader sentiment analysis, a powerful tool that assigns scores ranging from -1 to 1. Vader sentiment analysis specializes in evaluating the polarity of text, offering insights into whether the expressed sentiment is positive, negative, or neutral. Scores closer to -1 indicate a more negative sentiment, scores near 1 suggest a more positive sentiment, and scores around 0 signify a neutral sentiment. This approach provides a nuanced understanding of the emotional tone embedded in the narratives of terrorism-themed movies across different countries.
+
+![My Image](/assets/img/sentiment_score_map)
+
+
+Here are some key observations :
+-**Negative Sentiment Dominance:** The majority of countries exhibit negative average sentiment scores, indicating a prevalent trend toward portraying terrorism-related themes with a more critical emotional tone.
+-**Range of Sentiment Scores:**  The sentiment scores exhibit a spectrum, spanning from negative values, such as -0.344 (Egypt) and -0.340 (Uruguay), to positive values, like 0.426 (Tunisia) and 0.291 (Lebanon). This wide range indicates diverse emotional representations across different countries. However, it's crucial to note that several of these countries have a lower movie count, potentially influencing the accuracy and representativeness of the results.
+-**Consistency Across Regions:** Countries within certain regions, like Europe, share similar negative sentiment trends, as seen in Germany (DEU), France (FRA), and the United Kingdom (GBR).
+
+Upon careful examination of the average sentiment scores map, we have identified several key countries for in-depth analysis. The United States, India, and the United Kingdom stand out due to their significant volume of terrorism-themed movies, providing a robust dataset for exploration.
+In addition, we find intriguing variations in sentiment scores in South America and Central America. While some countries, such as Brazil, exhibit neutral sentiments with a low score of -0.08, others, like Chile, lean slightly positive with a score of 0.06. Notably, Uruguay portrays a comparatively low sentiment score of -0.35, whereas Venezuela emerges with a distinctive high score of 0.24.
+To ensure meaningful analysis, we will aggregate data for all Latin American countries into a single group, allowing us to glean insights from a more substantial dataset.
+By narrowing our focus to these regions, we aim to explore patterns and correlations between the depiction of terrorism in movies and the associated sentiment scores, uncovering nuanced insights that may be obscured when considering the entire dataset.
+This refined introduction provides more detail about the chosen focus countries and the rationale behind selecting them. It sets the stage for a more comprehensive analysis of terrorism-themed movies and their sentiments.
+
+To gain a comprehensive understanding of sentiment distribution across all genres for the chosen countries, we initially examined the broader landscape by plotting the percentage of emotional and non-emotional movies for each country before delving into the negative, neutral, and positive categorization.
+
+![My Image](/assets/img/emotion_vs_non_emotion)
+
+Not surprisingly, the analysis revealed a consistent pattern across all focus countries, with more than 80% of terrorism-themed movies eliciting emotional responses.
+Following this preliminary exploration, we proceeded to classify the terrorism-themed movies into three categories: negative, neutral, and positive.
+
+![My Image](/assets/img/neg_vs_neutral_vs_pos)
+
+Notably, negative sentiments are prominently represented within terrorism-themed movies, indicating a common trend across the dataset.
+An intriguing observation arises when analysing the sentiments of terrorism-themed movies, particularly in the case of India. Unlike other focus countries, India stands out with a noteworthy positive sentiment of approximately 27.59%. This positive sentiment is more than two times higher than that observed in other countries and regions of interest.
+The prevalence of negative sentiments aligns with the nature of terrorism-themed movies, often portraying intense and dramatic narratives. However, India's distinctive positive sentiment introduces an interesting dynamic. This unique trend suggests that Indian cinema, even when depicting terrorism, tends to incorporate elements that evoke positive emotions or portray resilience in the face of adversity.
+As we delve deeper into our analysis, exploring the thematic elements, plot structures, and character dynamics of terrorism-themed movies, we anticipate uncovering nuanced insights that contribute to a richer understanding of how different countries approach and depict this genre. India's positive sentiment, in particular, warrants further investigation to unravel the factors contributing to this distinctive trend.
+
+To extract more detailed insights, we aim to cluster the emotional arcs of movies, considering both country-specific and genre-specific contexts. It is crucial to note that attempting to cluster movies from diverse genres together may not yield meaningful results due to the inherent variation in storytelling approaches. Consequently, we will focus on drama, action, and thriller genres, given their prevalence in terrorism-themed movies.
+
+
+![My Image](/assets/img/drama_cluster_page-0001)
+![My Image](/assets/img/action_cluster_page-0001)
+![My Image](/assets/img/thriller_cluster_page-0001)
+
+
+To delve into the analysis of this plot type, we will use a terminology established by the American writer Kurt Vonnegut. Vonnegut's framework demonstrates the identification of six primary story plots, commonly known as story arcs. These arcs encompass a diverse array of narrative structures that significantly influence the emotional trajectory of a story. Kurt Vonnegut's work showcases that stories, irrespective of their genres, tend to follow specific patterns, contributing to a richer understanding of storytelling dynamics.
+The six main arcs are (where Rise mean a rise in happiness): 
+-**Rise-Fall-Rise:** “Cinderella”
+-**Fall-Rise-Fall:** “Oedipus”
+-**Fall-Rise:** “Man in a Hole”
+-**Steady Fall:** “Riches to Rags” or “Tragedy”
+-**Steady Rise:** “Rags to Riches”
+-**Rise-Fall:** “Icarus”
+
+Examining the clusters within the drama genre reveals intriguing patterns. The first cluster, observed for the United Kingdom (GBR), the United States (USA), and India (IND), appears to follow the same narrative curve but on different scales, emphasising the universality of certain emotional arcs across these countries.
+Furthermore, GBR and USA exhibit similar clusters for the second and third clusters, resembling the "Man in the Hole" (cluster 2) and "Cinderella" (cluster 3) arcs. This consistency across countries suggests shared storytelling structures. Notably, the third cluster for India introduces a compelling dynamic, starting with a very low sentiment (-0.4), descending even lower before rising and oscillating at the end. This nuanced emotional trajectory prompts further exploration to uncover potential thematic correlations.
+In contrast, the clusters for Latin American countries pose challenges in interpretation, possibly due to limited data and its quality.
+
+Transitioning to the action genre, similar narrative structures emerge, with instances of "Cinderella" clusters (cluster 1 for GBR, cluster 3 for USA; cluster 2 for IND, and possibly cluster 2 for LAT) and "Man in the Hole" clusters (cluster 3 for GBR, cluster 1 for USA, IND, and LAT). Notably, the third cluster for India in the action genre closely mirrors the corresponding cluster in the drama genre. This alignment may contribute to the observed difference in positive sentiment percentages for India, highlighting the importance of exploring cross-genre patterns in emotional arcs.
+
+Transitioning to the thriller genre posed additional challenges in interpretation. For the United Kingdom (GBR), the analysis revealed a "Tragedy" cluster 1 (Riches to Rags), an uninterpretable cluster 2, and a "Man in the Hole" cluster for cluster 3. The intricacies of these clusters suggest diverse emotional arcs, making it a complex genre to analyse comprehensively.
+In the case of the United States (USA), the first cluster appears to follow an "Oedipus" narrative, followed by a "Rags to Riches" arc. Cluster 2 aligns with a "Cinderella" narrative, while the third cluster exhibits a "Cinderella" arc at the beginning and end, resembling a "Man in the Hole" emotional trajectory. This diversity within the clusters showcases the multifaceted nature of storytelling in the thriller genre.
+For India (IND), the first two clusters exhibit a "Man in the Hole" emotional arc, while the third cluster, initially appearing dissimilar, surprisingly aligns with the trends observed in the drama and action genres. This remarkable consistency indicates a recurring thematic pattern, where the emotional trajectory comprises an "Oedipus" phase followed by a "Cinderella" arc.
+Lastly, Latin American countries (LAT) exhibit distinctive emotional arcs in the thriller genre. Cluster 1 aligns with a "Man in the Hole" narrative, while cluster 2 follows a "Rags to Riches" emotional arc. This genre-specific analysis sheds light on the diversity and complexity of emotional narratives within terrorism-themed movies, offering a nuanced perspective on how different countries approach storytelling in this challenging genre.
