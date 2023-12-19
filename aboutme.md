@@ -25,7 +25,7 @@ We can observe a growing trend in the production of terrorism-related movies ove
 
 As we can see, the US, followed by India, United Kingdom and Japan, are the most important countries when it comes to producing terrorism-related movies. This plot is of course a little biased, since the Hollywood and Bollywood are the most important movie production industries in the world, and they by nature produce more movies than other countries.
 
-{% include_relative assets/img/sentiment_score_map.html %}
+{% include_relative assets/img/map_movie_count.html %}
 
 This plot offers a sight into how many terrorism-related movies were produced in each country.
 
