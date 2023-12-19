@@ -122,6 +122,7 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 To gain an initial perspective, we can generate a map depicting the average sentiment score for each country within our dataset. The sentiment scores were computed utilizing Vader sentiment analysis, a powerful tool that assigns scores ranging from -1 to 1. Vader sentiment analysis specializes in evaluating the polarity of text, offering insights into whether the expressed sentiment is positive, negative, or neutral. Scores closer to -1 indicate a more negative sentiment, scores near 1 suggest a more positive sentiment, and scores around 0 signify a neutral sentiment. This approach provides a nuanced understanding of the emotional tone embedded in the narratives of terrorism-themed movies across different countries.
 
 ![My Image](/assets/img/sentiment_score_map.png)
+{% include_relative assets/img/sentiment_score_map.html %}
 
 
 Here are some key observations :
