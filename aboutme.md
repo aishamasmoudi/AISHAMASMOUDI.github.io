@@ -165,9 +165,6 @@ To extract more detailed insights, we aim to cluster the emotional arcs of movie
 
 
 ![My Image](/assets/img/drama_cluster_page-0001.jpg)
-![My Image](/assets/img/action_cluster_page-0001.jpg)
-![My Image](/assets/img/thriller_clusters_page-0001.jpg)
-
 
 To delve into the analysis of this plot type, we will use a terminology established by the American writer Kurt Vonnegut. Vonnegut's framework demonstrates the identification of six primary story plots, commonly known as story arcs. These arcs encompass a diverse array of narrative structures that significantly influence the emotional trajectory of a story. Kurt Vonnegut's work showcases that stories, irrespective of their genres, tend to follow specific patterns, contributing to a richer understanding of storytelling dynamics.
 The six main arcs are (where Rise mean a rise in happiness): 
@@ -182,7 +179,13 @@ Examining the clusters within the drama genre reveals intriguing patterns. The f
 Furthermore, GBR and USA exhibit similar clusters for the second and third clusters, resembling the "Man in the Hole" (cluster 2) and "Cinderella" (cluster 3) arcs. This consistency across countries suggests shared storytelling structures. Notably, the third cluster for India introduces a compelling dynamic, starting with a very low sentiment (-0.4), descending even lower before rising and oscillating at the end. This nuanced emotional trajectory prompts further exploration to uncover potential thematic correlations.
 In contrast, the clusters for Latin American countries pose challenges in interpretation, possibly due to limited data and its quality.
 
+![My Image](/assets/img/action_cluster_page-0001.jpg)
+
+
 Transitioning to the action genre, similar narrative structures emerge, with instances of "Cinderella" clusters (cluster 1 for GBR, cluster 3 for USA; cluster 2 for IND, and possibly cluster 2 for LAT) and "Man in the Hole" clusters (cluster 3 for GBR, cluster 1 for USA, IND, and LAT). Notably, the third cluster for India in the action genre closely mirrors the corresponding cluster in the drama genre. This alignment may contribute to the observed difference in positive sentiment percentages for India, highlighting the importance of exploring cross-genre patterns in emotional arcs.
+
+![My Image](/assets/img/thriller_clusters_page-0001.jpg)
+
 
 Transitioning to the thriller genre posed additional challenges in interpretation. For the United Kingdom (GBR), the analysis revealed a "Tragedy" cluster 1 (Riches to Rags), an uninterpretable cluster 2, and a "Man in the Hole" cluster for cluster 3. The intricacies of these clusters suggest diverse emotional arcs, making it a complex genre to analyse comprehensively.
 In the case of the United States (USA), the first cluster appears to follow an "Oedipus" narrative, followed by a "Rags to Riches" arc. Cluster 2 aligns with a "Cinderella" narrative, while the third cluster exhibits a "Cinderella" arc at the beginning and end, resembling a "Man in the Hole" emotional trajectory. This diversity within the clusters showcases the multifaceted nature of storytelling in the thriller genre.
