@@ -25,7 +25,7 @@ We can observe a growing trend in the production of terrorism-related movies ove
 
 As we can see, the US, followed by India, United Kingdom and Japan, are the most important countries when it comes to producing terrorism-related movies. This plot is of course a little biased, since the Hollywood and Bollywood are the most important movie production industries in the world, and they by nature produce more movies than other countries.
 
-![My Image](/assets/img/terrorism_movies_per_country.png)
+{% include_relative assets/img/sentiment_score_map.html %}
 
 This plot offers a sight into how many terrorism-related movies were produced in each country.
 
@@ -121,7 +121,7 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 
 To gain an initial perspective, we can generate a map depicting the average sentiment score for each country within our dataset. The sentiment scores were computed utilizing Vader sentiment analysis, a powerful tool that assigns scores ranging from -1 to 1. Vader sentiment analysis specializes in evaluating the polarity of text, offering insights into whether the expressed sentiment is positive, negative, or neutral. Scores closer to -1 indicate a more negative sentiment, scores near 1 suggest a more positive sentiment, and scores around 0 signify a neutral sentiment. This approach provides a nuanced understanding of the emotional tone embedded in the narratives of terrorism-themed movies across different countries.
 
-![My Image](/assets/img/sentiment_score_map.png)
+
 {% include_relative assets/img/sentiment_score_map.html %}
 
 
@@ -138,12 +138,16 @@ This refined introduction provides more detail about the chosen focus countries 
 
 To gain a comprehensive understanding of sentiment distribution across all genres for the chosen countries, we initially examined the broader landscape by plotting the percentage of emotional and non-emotional movies for each country before delving into the negative, neutral, and positive categorization.
 
-![My Image](/assets/img/emotion_vs_non_emotion.png)
+
+{% include_relative assets/img/emotion_percentage_plot.html %}
+
 
 Not surprisingly, the analysis revealed a consistent pattern across all focus countries, with more than 80% of terrorism-themed movies eliciting emotional responses.
 Following this preliminary exploration, we proceeded to classify the terrorism-themed movies into three categories: negative, neutral, and positive.
 
-![My Image](/assets/img/neg_vs_neutral_vs_pos.png)
+
+{% include_relative assets/img/sentiment_percentage_plot.html %}
+
 
 Notably, negative sentiments are prominently represented within terrorism-themed movies, indicating a common trend across the dataset.
 An intriguing observation arises when analysing the sentiments of terrorism-themed movies, particularly in the case of India. Unlike other focus countries, India stands out with a noteworthy positive sentiment of approximately 27.59%. This positive sentiment is more than two times higher than that observed in other countries and regions of interest.
