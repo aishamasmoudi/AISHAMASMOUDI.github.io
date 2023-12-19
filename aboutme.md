@@ -163,9 +163,6 @@ As we delve deeper into our analysis, exploring the thematic elements, plot stru
 
 To extract more detailed insights, we aim to cluster the emotional arcs of movies, considering both country-specific and genre-specific contexts. It is crucial to note that attempting to cluster movies from diverse genres together may not yield meaningful results due to the inherent variation in storytelling approaches. Consequently, we will focus on drama, action, and thriller genres, given their prevalence in terrorism-themed movies.
 
-
-![My Image](/assets/img/drama_cluster_page-0001.jpg)
-
 To delve into the analysis of this plot type, we will use a terminology established by the American writer Kurt Vonnegut. Vonnegut's framework demonstrates the identification of six primary story plots, commonly known as story arcs. These arcs encompass a diverse array of narrative structures that significantly influence the emotional trajectory of a story. Kurt Vonnegut's work showcases that stories, irrespective of their genres, tend to follow specific patterns, contributing to a richer understanding of storytelling dynamics.
 The six main arcs are (where Rise mean a rise in happiness): 
 - **Rise-Fall-Rise:** “Cinderella”
@@ -174,6 +171,9 @@ The six main arcs are (where Rise mean a rise in happiness):
 - **Steady Fall:** “Riches to Rags” or “Tragedy”
 - **Steady Rise:** “Rags to Riches”
 - **Rise-Fall:** “Icarus”
+
+![My Image](/assets/img/drama_cluster_page-0001.jpg)
+
 
 Examining the clusters within the drama genre reveals intriguing patterns. The first cluster, observed for the United Kingdom (GBR), the United States (USA), and India (IND), appears to follow the same narrative curve but on different scales, emphasising the universality of certain emotional arcs across these countries.
 Furthermore, GBR and USA exhibit similar clusters for the second and third clusters, resembling the "Man in the Hole" (cluster 2) and "Cinderella" (cluster 3) arcs. This consistency across countries suggests shared storytelling structures. Notably, the third cluster for India introduces a compelling dynamic, starting with a very low sentiment (-0.4), descending even lower before rising and oscillating at the end. This nuanced emotional trajectory prompts further exploration to uncover potential thematic correlations.
