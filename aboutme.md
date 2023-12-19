@@ -114,7 +114,7 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 ##### Last but not least, we delve into the thematic jungle of terrorism movies. Are we spotting patterns, or is it as unpredictable as a plot twist in a Hitchcock film?
 
 -----------------
-## 4. Emotional Depiction - The Tearjerker ot the Fist-Pumper?
+## 4. Emotional Depiction
 
 
 ### 4.1 Do the emotional tones in the cinematic representation of terrorism differ between specific countries/regions ?
@@ -125,9 +125,9 @@ To gain an initial perspective, we can generate a map depicting the average sent
 
 
 Here are some key observations :
--**Negative Sentiment Dominance:** The majority of countries exhibit negative average sentiment scores, indicating a prevalent trend toward portraying terrorism-related themes with a more critical emotional tone.
--**Range of Sentiment Scores:**  The sentiment scores exhibit a spectrum, spanning from negative values, such as -0.344 (Egypt) and -0.340 (Uruguay), to positive values, like 0.426 (Tunisia) and 0.291 (Lebanon). This wide range indicates diverse emotional representations across different countries. However, it's crucial to note that several of these countries have a lower movie count, potentially influencing the accuracy and representativeness of the results.
--**Consistency Across Regions:** Countries within certain regions, like Europe, share similar negative sentiment trends, as seen in Germany (DEU), France (FRA), and the United Kingdom (GBR).
+- **Negative Sentiment Dominance:** The majority of countries exhibit negative average sentiment scores, indicating a prevalent trend toward portraying terrorism-related themes with a more critical emotional tone.
+- **Range of Sentiment Scores:**  The sentiment scores exhibit a spectrum, spanning from negative values, such as -0.344 (Egypt) and -0.340 (Uruguay), to positive values, like 0.426 (Tunisia) and 0.291 (Lebanon). This wide range indicates diverse emotional representations across different countries. However, it's crucial to note that several of these countries have a lower movie count, potentially influencing the accuracy and representativeness of the results.
+- **Consistency Across Regions:** Countries within certain regions, like Europe, share similar negative sentiment trends, as seen in Germany (DEU), France (FRA), and the United Kingdom (GBR).
 
 Upon careful examination of the average sentiment scores map, we have identified several key countries for in-depth analysis. The United States, India, and the United Kingdom stand out due to their significant volume of terrorism-themed movies, providing a robust dataset for exploration.
 In addition, we find intriguing variations in sentiment scores in South America and Central America. While some countries, such as Brazil, exhibit neutral sentiments with a low score of -0.08, others, like Chile, lean slightly positive with a score of 0.06. Notably, Uruguay portrays a comparatively low sentiment score of -0.35, whereas Venezuela emerges with a distinctive high score of 0.24.
@@ -159,12 +159,12 @@ To extract more detailed insights, we aim to cluster the emotional arcs of movie
 
 To delve into the analysis of this plot type, we will use a terminology established by the American writer Kurt Vonnegut. Vonnegut's framework demonstrates the identification of six primary story plots, commonly known as story arcs. These arcs encompass a diverse array of narrative structures that significantly influence the emotional trajectory of a story. Kurt Vonnegut's work showcases that stories, irrespective of their genres, tend to follow specific patterns, contributing to a richer understanding of storytelling dynamics.
 The six main arcs are (where Rise mean a rise in happiness): 
--**Rise-Fall-Rise:** “Cinderella”
--**Fall-Rise-Fall:** “Oedipus”
--**Fall-Rise:** “Man in a Hole”
--**Steady Fall:** “Riches to Rags” or “Tragedy”
--**Steady Rise:** “Rags to Riches”
--**Rise-Fall:** “Icarus”
+- **Rise-Fall-Rise:** “Cinderella”
+- **Fall-Rise-Fall:** “Oedipus”
+- **Fall-Rise:** “Man in a Hole”
+- **Steady Fall:** “Riches to Rags” or “Tragedy”
+- **Steady Rise:** “Rags to Riches”
+- **Rise-Fall:** “Icarus”
 
 Examining the clusters within the drama genre reveals intriguing patterns. The first cluster, observed for the United Kingdom (GBR), the United States (USA), and India (IND), appears to follow the same narrative curve but on different scales, emphasising the universality of certain emotional arcs across these countries.
 Furthermore, GBR and USA exhibit similar clusters for the second and third clusters, resembling the "Man in the Hole" (cluster 2) and "Cinderella" (cluster 3) arcs. This consistency across countries suggests shared storytelling structures. Notably, the third cluster for India introduces a compelling dynamic, starting with a very low sentiment (-0.4), descending even lower before rising and oscillating at the end. This nuanced emotional trajectory prompts further exploration to uncover potential thematic correlations.
