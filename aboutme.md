@@ -188,7 +188,3 @@ p {
     text-align: justify;
 }
 </style>
-
-![My Image](/assets/img/thriller_clusters_page-0001.jpg)
-
-...
