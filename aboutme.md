@@ -33,6 +33,9 @@ This plot offers a sight into how many terrorism-related movies were produced in
 ---
 
 ## 1. Popularity Analysis - The Box Office Boom
+Welcome to 'The Box Office Boom' – our explosive journey into the popularity analysis of terrorism movies! 🎥💥📈
+
+Think of this section as our own red carpet into the world of blockbusters and hidden gems. We're not just talking numbers; we're diving into what makes audiences tick, cheer, and sometimes, jump out of their seats. It's a wild ride through ticket sales, audience reactions, and those jaw-dropping moments that make these films a hit or a miss.
 ### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
 Terrorism-themed movies often walk a fine line between capturing the audience's attention with intense, suspenseful narratives and potentially alienating viewers due to the sensitive nature of the subject. The popularity of these films at the box office can provide insights into how well they strike this balance. Our analysis focused on two crucial metrics: box office revenue and movie ratings. The findings we uncovered not only surprised us but also painted a compelling picture of the audience's response to this genre.
 
@@ -158,6 +161,12 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 ---
 
 ## 3. Topic Patterns : Unraveling the Thematic Tapestry of Terrorism in Cinema
+
+Alright, movie buffs and data detectives, gear up for a bit of fun in the serious world of terrorism movies! 🕵️‍♂️🍿💥
+
+In our topic modeling adventure, we're not just crunching numbers, we're uncovering the secret sauce that spices up these films. It's like digging through a treasure chest of words, phrases, and dialogues to discover what makes these movies tick, boom, and sometimes, unexpectedly, make us chuckle.
+
+So, let's take a light-hearted leap into this deep dive. Who knows? We might just find that amidst the chaos and drama, there's a quirky line or two waiting to be discovered.
 
 ### 3.1 The Art of Decoding Themes: A Peek Behind the Curtain
 
