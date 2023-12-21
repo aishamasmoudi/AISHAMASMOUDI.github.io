@@ -146,7 +146,8 @@ Words like "attack," "police," "man," "kill," and "escape" dominate the scene, p
 
 Now, we zoom in on specific countries - the USA, the UK, India, and other key film-producing nations.
 
-`[Insert Country-Specific LDA Topic Model Visualizations Here]`
+![My Image](/assets/img/USA_TOPICS.png)
+![My Image](/assets/img/INDIA_TOPICS.png)
 
 Each country brings its unique narrative style and cultural nuances to the fore. The themes vary – from the emotional and familial in Indian cinema to the tactical and militaristic in American movies. We explore how each country's history, culture, and political climate influence its cinematic portrayal of terrorism.
 
