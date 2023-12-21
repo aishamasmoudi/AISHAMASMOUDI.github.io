@@ -22,7 +22,7 @@ Let's start by visualizing the counts of terrorism-related movies through time:
 We can observe a growing trend in the production of terrorism-related movies over the years. This could suggest a growing interest in terrorism movies in cinema, but it could however be related to the smaller number of movies provided by the CMU dataset in the 1907-1940s period. There is a dramatic increase in the early 21st century period, where the bars reach their highest points. This could be reflective of global events and the increased prevalence of terrorism in news media, telling us about the role of terrorism in the public consciousness during these times, which may have influence the film industry.
 
 ![My Image](/assets/img/terrorism_movies_countries.png)
-**figure out how to insert interactive plots**
+
 
 As we can see, the US, followed by India, United Kingdom and Japan, are the most important countries when it comes to producing terrorism-related movies. This plot is of course a little biased, since the Hollywood and Bollywood are the most important movie production industries in the world, and they by nature produce more movies than other countries.
 
@@ -43,7 +43,7 @@ We began our journey by examining the box office performance of terrorism-relate
 {% include_relative assets/plots/boxoffice_trends.html %}
 
 
-The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical scrutiny.
+The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical analysis.
 ### 1.2 The Numbers Speak Louder
 Our team conducted a rigorous statistical analysis to validate our initial findings. The results were unequivocal - there existed a statistically significant difference in box office revenue between terrorism-related movies and others. This raised intriguing questions: Was it the gripping narratives or the inherent curiosity that led audiences to theaters?
 
@@ -98,22 +98,22 @@ Now, for a more significant comparison, we will focus on the top 10 most common 
 
 ![My Image](/assets/img/proportion_genres.png)
 
-1. What genres are more prevalent in terrorism related movies than in non-terrorism related movies?
+What genres are more prevalent in terrorism related movies than in non-terrorism related movies?
 
 - Action and Thriller: These genres seem to be more prevalent in terrorism-related movies when compared to non-terrorism-related movies.
 - Adventure and Horror: While not as dominant as Drama, Action, or Thriller, these genres also appear more frequently in terrorism-related movies than in non-terrorism-related ones.
 - Drama: This genre has a very high proportion in both terrorism and non-terrorism related movies.
 
-2. How do these genre preferences for terrorism movies reflect cultural attitudes towards terrorism? Do they suggest that certain genres are better suited to explore terrorism-related themes?
+How do these genre preferences for terrorism movies reflect cultural attitudes towards terrorism? Do they suggest that certain genres are better suited to explore terrorism-related themes?
 
-- Action and Thriller: These genres are traditionally associated with high energy, suspense, and conflict, which are common elements in terrorism narratives. The prevalence of Action and Thriller genres in terrorism-related movies could reflect the intensity and high stakes often associated with terrorism.
-- Adventure and Horror: These genres could be more prevalent due to the way they can incorporate elements of the unknown and fear, which can reflect unpredictability and fear associated with acts of terrorism.
-- Drama: While Drama is prevalent in both types of movies, its slightly reduced prevalence in terrorism-related movies compared to non-terrorism-related ones might indicate that while dramatic storytelling is universal, terrorism movies might need the inclusion of action or thriller elements to better portray the specific themes associated to terrorism.
+- **Action and Thriller:** These genres are traditionally associated with high energy, suspense, and conflict, which are common elements in terrorism narratives. The prevalence of Action and Thriller genres in terrorism-related movies could reflect the intensity and high stakes often associated with terrorism.
+- **Adventure and Horror:** These genres could be more prevalent due to the way they can incorporate elements of the unknown and fear, which can reflect unpredictability and fear associated with acts of terrorism.
+- **Drama:** While Drama is prevalent in both types of movies, its slightly reduced prevalence in terrorism-related movies compared to non-terrorism-related ones might indicate that while dramatic storytelling is universal, terrorism movies might need the inclusion of action or thriller elements to better portray the specific themes associated to terrorism.
 
-3. Do these genre trends in terrorism-related movies reflect a global influence, or are they more indicative of Western cinematic trends?
+Do these genre trends in terrorism-related movies reflect a global influence, or are they more indicative of Western cinematic trends?
    We discuss this in **section 2.2**.
 
-4. Evolution Over Time: How have the representations of terrorism in various genres evolved over time? We discuss this in **section 2.3**.
+Evolution Over Time: How have the representations of terrorism in various genres evolved over time? We discuss this in **section 2.3**.
 
 ### 2.2 Does the prevalence of certain genres of terrorism-related movies change between world regions? And between countries?
 
@@ -139,7 +139,7 @@ Thriller, Action and Horror have a similar peak, roughly from 2005 to 2015. Dram
 
 To conclude, the representation of terrorism in various genres have the same overall evolution over time, with an increase in the number of terrorism-movies of all genres. Some genres stand out with specific peaks, notably World cinema in the 1990s.
 
-### Conclusion:
+### 2.4 Conclusion:
 
 And that's a wrap on our Genre Analysis!
 
@@ -158,8 +158,6 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 ---
 
 ## 3. Topic Patterns : Unraveling the Thematic Tapestry of Terrorism in Cinema
-
-##### Last but not least, we delve into the thematic jungle of terrorism movies. Are we spotting patterns, or is it as unpredictable as a plot twist in a Hitchcock film?
 
 ### 3.1 The Art of Decoding Themes: A Peek Behind the Curtain
 
@@ -204,7 +202,7 @@ Expanding our lens to ten relevant countries, we uncover a spectrum of themes. F
 
 The American and Indian cinemas stand out for their distinct approach to terrorism. American films often mirror the country's political stance, portraying terrorism through a lens of counterterrorism operations and strategic maneuvers. In contrast, Indian cinema delves into the emotional and societal impact of terrorism, painting a vivid picture of its ripple effects on human relationships and communities.
 
-### Conclusion: A World of Stories Told Differently
+### 3.3 Conclusion: A World of Stories Told Differently
 
 Our exploration into the thematic depths of terrorism-themed movies reveals the profound impact of cinema in mirroring the complexities of our world. Each film, from every corner of the globe, weaves a narrative that transcends mere storytelling, reflecting the nuanced interplay of cultural, historical, and societal influences.
 
