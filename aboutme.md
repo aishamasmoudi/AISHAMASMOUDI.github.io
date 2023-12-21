@@ -288,37 +288,37 @@ Transitioning to the action genre, similar narrative structures emerge, with ins
 
 ![My Image](/assets/img/thriller_clusters_page-0001.jpg)
 
-<p>
+
 Transitioning to the thriller genre posed additional challenges in interpretation. For the United Kingdom (GBR), the analysis revealed a "Tragedy" cluster 1 (Riches to Rags), an uninterpretable cluster 2, and a "Man in the Hole" cluster for cluster 3. The intricacies of these clusters suggest diverse emotional arcs, making it a complex genre to analyse comprehensively.
 In the case of the United States (USA), the first cluster appears to follow an "Oedipus" narrative, followed by a "Rags to Riches" arc. Cluster 2 aligns with a "Cinderella" narrative, while the third cluster exhibits a "Cinderella" arc at the beginning and end, resembling a "Man in the Hole" emotional trajectory. This diversity within the clusters showcases the multifaceted nature of storytelling in the thriller genre.
 For India (IND), the first two clusters exhibit a "Man in the Hole" emotional arc, while the third cluster, initially appearing dissimilar, surprisingly aligns with the trends observed in the drama and action genres. This remarkable consistency indicates a recurring thematic pattern, where the emotional trajectory comprises an "Oedipus" phase followed by a "Cinderella" arc. Lastly, Latin American countries (LAT) exhibit distinctive emotional arcs in the thriller genre. Cluster 1 aligns with a “Man in the Hole” narrative, while cluster 2 follows a “Rags to Riches” emotional arc. This genre-specific analysis sheds light on the diversity and complexity of emotional narratives within terrorism-themed movies, offering a nuanced perspective on how different countries approach storytelling in this challenging genre.
-</p>
 
-<p>
+
+
 In summary, our thorough analysis of sentiment scores in terrorism-themed movies has uncovered distinct patterns and notable variations across key countries. The United States, India, and the United Kingdom stand out as focal points, providing substantial datasets for nuanced exploration. Additionally, South and Central American countries exhibit intriguing sentiment differentials, prompting a collective analysis for meaningful insights.
-</p>
 
-<p>
+
+
 India distinguishes itself with a significant positive sentiment of approximately 27.59%, deviating from global trends. We also encountered a cluster present for every genre that has an ascending tendency of sentiment score, meaning an increase in positive sentiments coupling this with the fact that the USA and the United Kingdom resemble each other so much, suggests a nuanced approach in Indian cinema . Here, we can list a few reason making Bollywood and Indian cinema in general special :
 
 - **Cultural tradition :** Bollywood cinema is deeply interwoven with the rich tapestry of Indian culture, traditions, and societal norms. Films often mirror the socio-cultural narratives prevalent in Indian society, highlighting familial ties, societal obligations,... The emotional arcs within these films are reflective of these themes, providing a cinematic expression of the societal narratives.
 - **Emotional Range:** In Bollywood, the "Fall-Rise" and "Cinderella" story arcs are particularly evocative, depicting protagonists who confront and surmount formidable obstacles. Such narratives resonate with the cultural values of resilience and perseverance, which are esteemed within Indian culture.
 - **Musical Influence:** The integration of music and dance is a hallmark of Bollywood storytelling, which can serve to amplify the emotional arcs of the narratives. For example, the depiction of a character's ascension from hardship to success—a "Steady Rise"—is often punctuated with exuberant musical interludes, intensifying the emotional resonance and providing a unique cinematic experience.
 
-</p>
 
-<p>
+
+
 Looking ahead, as we employ advanced techniques like BERT, we anticipate uncovering deeper insights and hidden nuances in the data. Our commitment to precision and thorough exploration remains steadfast as we unravel the intricacies of sentiment and storytelling dynamics in terrorism-themed movies.🔍
-</p>
 
-<p>
+
+
 And now, ladies and gentlemen, let me introduce the all mighty analytical beast (drum roll 🥁): <code>DistilBERT-base-uncased-emotion</code>. This distilled version of our heavyweight champ, BERT, is quicker on its data feet, but still manages to provide just as much insights on the emotional depiction of movies as its bigger brother. Thanks to its world-class pre-training on datasets labeled with emotional states, it predicts the emotional tone of a text. How is that? Well, for each sentence in a given text, it outputs 6 scores, all between 0 and 1, and each one referring to specific emotions: Sadness 😢, joy 😁, love🥰, anger😡, fear😰 and Surprise 😲!  Enough with the introductions, let's unpack the emotional suitcase that terrorism-related movies have carried.
-</p>
 
-<p>
+
+
 <strong>Global mood swings: an emotional journey through the cinematic lense of terror</strong>
 Remember the map of the Vader sentiments across all countries? Well, we did the same exact thing...But this time, with the emotion predictions we obtained from running our high-tech secret weapon, just for fun, before diving into the emotions independently!
-</p>
+
 
 {% include_relative assets/img/map_meanscores_bert.html %}
 
