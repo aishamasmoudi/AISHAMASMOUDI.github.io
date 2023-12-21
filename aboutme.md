@@ -132,13 +132,16 @@ In the world of terrorism-themed movies, each frame, each dialogue carries a uni
 
 ### 3.2 Topic Modeling with LDA: The Heart of Our Analysis
 
-Here's where the magic happens. We run LDA to discern the dominant themes in our collection of terrorism-themed movies. Each movie is now a mosaic of topics, each topic a tapestry of words.
+The magic of LDA transforms our collection of terrorism-themed movies into a rich mosaic of topics, each a complex tapestry of words, revealing hidden narratives.
 
 #### Global Lens: The Universal Themes
 
 Our first foray is into the general landscape. We examine movies from across the globe to identify overarching themes.
 
-![My Image](/assets/img/general_topics.png)
+<p align="center">
+  <img src="/assets/img/general_topics.png" alt="General Topics in Global Cinema"/>
+  <br><em>Fig. 1: General Topics in Global Cinema</em>
+</p>
 
 Words like "attack," "police," "man," "kill," and "escape" dominate the scene, painting a picture of action, conflict, and suspense – the quintessential elements of terrorism movies.
 
@@ -146,14 +149,28 @@ Words like "attack," "police," "man," "kill," and "escape" dominate the scene, p
 
 Now, we zoom in on specific countries - the USA, the UK, India, and other key film-producing nations.
 
-![My Image](/assets/img/USA_TOPICS.png)
-![My Image](/assets/img/INDIA_TOPICS.png)
+<p align="center">
+  <img src="/assets/img/USA_TOPICS.png" alt="Themes in American Terrorism Movies"/>
+  <br><em>Fig. 2: Themes in American Terrorism Movies</em>
+</p>
 
-Each country brings its unique narrative style and cultural nuances to the fore. The themes vary – from the emotional and familial in Indian cinema to the tactical and militaristic in American movies. We explore how each country's history, culture, and political climate influence its cinematic portrayal of terrorism.
+<p align="center">
+  <img src="/assets/img/INDIA_TOPICS.png" alt="Themes in Indian Terrorism Movies"/>
+  <br><em>Fig. 3: Themes in Indian Terrorism Movies</em>
+</p>
+American movies often deploy themes of tactical operations and military might, mirroring the nation's real-world engagement with global security issues. Indian films, on the other hand, interweave terrorism with rich emotional and familial narratives, reflecting a cinema culture deeply rooted in personal stories and societal fabric.
+
+### Spotlight on Diversity: Beyond Borders
+
+Expanding our lens to ten relevant countries, we uncover a spectrum of themes. From the poignant tales of personal loss in French cinema to the shadowy underworlds depicted in Japanese films, each country's cinematic portrayal of terrorism is a mirror to its cultural heartbeat and historical scars.
+
+#### American vs. Indian Narratives: A Study in Contrast
+
+The American and Indian cinemas stand out for their distinct approach to terrorism. American films often mirror the country's political stance, portraying terrorism through a lens of counterterrorism operations and strategic maneuvers. In contrast, Indian cinema delves into the emotional and societal impact of terrorism, painting a vivid picture of its ripple effects on human relationships and communities.
 
 ### Conclusion: A World of Stories Told Differently
 
-Our journey through the thematic realms of terrorism-themed movies reveals a rich diversity in storytelling. While there's a universal language of action and conflict, each country adds its distinct flavor, embedding its unique historical, cultural, and political narratives into these portrayals. The thematic tapestry we uncover is as diverse and intricate as the world itself.
+Our thematic journey across the world of terrorism-themed movies uncovers a rich tapestry of storytelling. While action and conflict form the universal language, each country embroiders its unique historical, cultural, and political narratives into these portrayals. The thematic diversity we unravel is as intricate and varied as the global fabric itself.
 
 ---
 
