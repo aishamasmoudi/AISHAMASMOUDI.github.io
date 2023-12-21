@@ -50,17 +50,19 @@ Our team conducted a rigorous statistical analysis to validate our initial findi
 
 ![My Image](/assets/img/boxoffice_comparative.png)
 
-<iframe src="assets/plots/boxoffice_comparative.html" width="800" height="500" frameborder="0" position="relative"></iframe>
+{% include_relative assets/plots/boxoffice_comparative.html %}
+
 
 ### 1.3 The Ratings Game: A Closer Look at Critical Acclaim
 Undeterred by the box office success, we shifted our focus to movie ratings. We asked ourselves, "Did terrorism-related movies not only capture the audience's wallets but also their hearts?" The ensuing histogram answered with a resounding "yes." Terrorism-related movies consistently received higher ratings compared to other genres.
 
-<iframe src="assets/plots/rating_trends.html" width="800" height="500" frameborder="0" position="relative"></iframe>
+{% include_relative assets/plots/rating_trends.html %}
 
 
 The visualization portrayed a compelling story - audiences, it seemed, not only flocked to theaters for these movies but also appreciated the cinematic quality they offered. Again, statistical analysis supported our observation of a significant difference in ratings.
 
-<iframe src="assets/plots/rating_comparative.html" width="800" height="500" frameborder="0" position="relative"></iframe>
+{% include_relative assets/plots/rating_comparative.html %}
+
 
 ![My Image](/assets/img/rating_comparative.png)
 
