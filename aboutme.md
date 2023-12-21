@@ -37,19 +37,23 @@ Terrorism-themed movies often walk a fine line between capturing the audience's 
 ## 1. The Box Office Showdown: Terrorism vs. Other Movies
 We began our journey by examining the box office performance of terrorism-related movies and contrasting them with the rest of the cinematic landscape. The initial histogram we crafted displayed a clear trend: terrorism-related movies consistently outperformed others in terms of box office revenue.
 
-{% include_relative assets/img/boxoffice_trends.html %}
+![My Image](/assets/img/boxoffice_trends.png)
 
 
 The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical scrutiny.
 ### 1.1 The Numbers Speak Louder
 Our team conducted a rigorous statistical analysis to validate our initial findings. The results were unequivocal - there existed a statistically significant difference in box office revenue between terrorism-related movies and others. This raised intriguing questions: Was it the gripping narratives or the inherent curiosity that led audiences to theaters?
+
+![My Image](/assets/img/boxoffice_comparative.png)
 ### 1.2 The Ratings Game: A Closer Look at Critical Acclaim
 Undeterred by the box office success, we shifted our focus to movie ratings. We asked ourselves, "Did terrorism-related movies not only capture the audience's wallets but also their hearts?" The ensuing histogram answered with a resounding "yes." Terrorism-related movies consistently received higher ratings compared to other genres.
 
-Histogram: Movie Ratings
+![My Image](/assets/img/rating_trends.png)
 
 
 The visualization portrayed a compelling story - audiences, it seemed, not only flocked to theaters for these movies but also appreciated the cinematic quality they offered. Again, statistical analysis supported our observation of a significant difference in ratings.
+
+![My Image](/assets/img/boxoffice_comparative.png)
 
 ### 1.3 Conclusion
 In conclusion, as we examined the impact of terrorism-related movies on the global film industry, we unearthed intriguing findings. These films not only achieve success in terms of box office revenue but also earn commendation from critics. Despite the inherent difficulties associated with a genre marked by tension and controversy, these movies distinguish themselves. It appears that viewers are drawn not solely for the gripping narratives but also for the artistic skill and creativity evident in crafting these insightful films.
