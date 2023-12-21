@@ -198,7 +198,10 @@ And now, ladies and gentlemen, let me introduce the all mighty analytical beast 
 **Global mood swings: an emotional journey through the cinematic lense of terror**
 Remember the map of the Vader sentiments across all countries? Well, we did the same exact thing...But this time, with the emotion predictions we obtained from running our high-tech secret weapon, just for fun, before diving into the emotions independently!
 
+{% include_relative assets/img/map_meanscores_bert.html %}
+
 Starting with North America and European countries, they have slightly higher mean emotional scores than the rest of the world -like the tip of Mount Everest-, probably due to the tendency of these countries to emphasize on patriotism or heroism patterns. And then, we have more subtle emotional nuances in the Middle East and parts of Asia where the movies might deliver a somber depiction of terrorism in movies. It is also interesting to note that there a few emotional outliers - Cameroon, Senegal, and Uruguay – hitting the emotional jackpot with the highest scores, and - Morocco, Kenya, and Vietnam- keeping their empotions more reserved. But let's not get carried away with these numbers since these countries do not count among those with the highest number of cinematic productions. One must also note that this mosaic of emotions might look impressing at first sight, but it is in reality a subtle color gradient, with an extremely tight range of emotion scores hovering around 0.1666, indicating that all countries seem to be on the same page... How to make the cut? Let's dissect these mean scores into individual emotions and visualise their distribution.
+{% include_relative assets/img/map_individual_scores_bert.html %}
 
 With our fancy map of individual emotion scores across the world, we are all set to understand the depiction of terrorism-related movies. 
 *Global emotional tendencies*
