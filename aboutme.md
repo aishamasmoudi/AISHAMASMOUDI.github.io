@@ -138,7 +138,7 @@ Here's where the magic happens. We run LDA to discern the dominant themes in our
 
 Our first foray is into the general landscape. We examine movies from across the globe to identify overarching themes.
 
-`[Insert Global LDA Topic Model Visualization Here]`
+![My Image](/assets/img/general_topics.png)
 
 Words like "attack," "police," "man," "kill," and "escape" dominate the scene, painting a picture of action, conflict, and suspense – the quintessential elements of terrorism movies.
 
