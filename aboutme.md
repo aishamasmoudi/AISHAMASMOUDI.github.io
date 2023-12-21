@@ -183,50 +183,12 @@ In contrast, the clusters for Latin American countries pose challenges in interp
 
 
 Transitioning to the action genre, similar narrative structures emerge, with instances of "Cinderella" clusters (cluster 1 for GBR, cluster 3 for USA; cluster 2 for IND, and possibly cluster 2 for LAT) and "Man in the Hole" clusters (cluster 3 for GBR, cluster 1 for USA, IND, and LAT). Notably, the third cluster for India in the action genre closely mirrors the corresponding cluster in the drama genre. This alignment may contribute to the observed difference in positive sentiment percentages for India, highlighting the importance of exploring cross-genre patterns in emotional arcs.
+<style>
+p {
+    text-align: justify;
+}
+</style>
 
 ![My Image](/assets/img/thriller_clusters_page-0001.jpg)
 
-
-Transitioning to the thriller genre posed additional challenges in interpretation. For the United Kingdom (GBR), the analysis revealed a "Tragedy" cluster 1 (Riches to Rags), an uninterpretable cluster 2, and a "Man in the Hole" cluster for cluster 3. The intricacies of these clusters suggest diverse emotional arcs, making it a complex genre to analyse comprehensively.
-In the case of the United States (USA), the first cluster appears to follow an "Oedipus" narrative, followed by a "Rags to Riches" arc. Cluster 2 aligns with a "Cinderella" narrative, while the third cluster exhibits a "Cinderella" arc at the beginning and end, resembling a "Man in the Hole" emotional trajectory. This diversity within the clusters showcases the multifaceted nature of storytelling in the thriller genre.
-For India (IND), the first two clusters exhibit a "Man in the Hole" emotional arc, while the third cluster, initially appearing dissimilar, surprisingly aligns with the trends observed in the drama and action genres. This remarkable consistency indicates a recurring thematic pattern, where the emotional trajectory comprises an "Oedipus" phase followed by a "Cinderella" arc. Lastly, Latin American countries (LAT) exhibit distinctive emotional arcs in the thriller genre. Cluster 1 aligns with a “Man in the Hole” narrative, while cluster 2 follows a “Rags to Riches” emotional arc. This genre-specific analysis sheds light on the diversity and complexity of emotional narratives within terrorism-themed movies, offering a nuanced perspective on how different countries approach storytelling in this challenging genre.
-
-In summary, our thorough analysis of sentiment scores in terrorism-themed movies has uncovered distinct patterns and notable variations across key countries. The United States, India, and the United Kingdom stand out as focal points, providing substantial datasets for nuanced exploration. Additionally, South and Central American countries exhibit intriguing sentiment differentials, prompting a collective analysis for meaningful insights.
-
-India distinguishes itself with a significant positive sentiment of approximately 27.59%, deviating from global trends. This suggests a nuanced approach in Indian cinema, where the genre’s unrestrained and uninhibited storytelling allows for a rich array of emotional expressions. Characters traverse a wide spectrum of feelings without the need for meticulous justification, enabling Hindi movies to tap into a reservoir of emotional vulnerability, particularly in male characters—a facet less frequently explored in Hollywood narratives. Conversely, Hollywood narratives typically unfold with calculated emotional intensity, reserving tear jerkers for narratives of profound significance and contributing to the cinematic canon as important works. The emotional terrain explored in Hollywood is often tethered to the gravity of the overarching plot, resulting in a more measured and controlled emotional resonance.
-
-Looking ahead, as we employ advanced techniques like BERT, we anticipate uncovering deeper insights and hidden nuances in the data. Our commitment to precision and thorough exploration remains steadfast as we unravel the intricacies of sentiment and storytelling dynamics in terrorism-themed movies.🔍
-
-And now, ladies and gentlemen, let me introduce the all mighty analytical beast (drum roll 🥁): `DistilBERT-base-uncased-emotion`. This distilled version of our heavyweight champ, BERT, is quicker on its data feet, but still manages to provide just as much insights on the emotional depiction of movies as its bigger brother. Thanks to its world-class pre-training on datasets labeled with emotional states, it predicts the emotional tone of a text. How is that? Well, for each sentence in a given text, it outputs 6 scores, all between 0 and 1, and each one referring to specific emotions: Sadness 😢, joy 😁, love🥰, anger😡, fear😰 and Surprise 😲!  Enough with the introductions, let's unpack the emotional suitcase that terrorism-related movies have carried.
-
-**Global mood swings: an emotional journey through the cinematic lense of terror**
-Remember the map of the Vader sentiments across all countries? Well, we did the same exact thing...But this time, with the emotion predictions we obtained from running our high-tech secret weapon, just for fun, before diving into the emotions independently!
-
-{% include_relative assets/img/map_meanscores_bert.html %}
-
-Starting with North America and European countries, they have slightly higher mean emotional scores than the rest of the world -like the tip of Mount Everest-, probably due to the tendency of these countries to emphasize on patriotism or heroism patterns. And then, we have more subtle emotional nuances in the Middle East and parts of Asia where the movies might deliver a somber depiction of terrorism in movies. It is also interesting to note that there a few emotional outliers - Cameroon, Senegal, and Uruguay – hitting the emotional jackpot with the highest scores, and - Morocco, Kenya, and Vietnam- keeping their empotions more reserved. But let's not get carried away with these numbers since these countries do not count among those with the highest number of cinematic productions. One must also note that this mosaic of emotions might look impressing at first sight, but it is in reality a subtle color gradient, with an extremely tight range of emotion scores hovering around 0.1666, indicating that all countries seem to be on the same page... How to make the cut? Let's dissect these mean scores into individual emotions and visualise their distribution.
-{% include_relative assets/img/map_individual_scores_bert.html %}
-
-With our fancy map of individual emotion scores across the world, we are all set to understand the depiction of terrorism-related movies.   
-***Global emotional tendencies***  
-Unsurprisingly, the fear map is quite homogeneous, showcasing high scores for practically all the countries around the globe. One cannot help but find it comforting that we share a collective shiver down our spine when terrorist plots unfold on the big screen. Anger is also present around the world since its map illustration is quite heated, perhaps evocating storylines of retaliation. And sadness, well it caught the blues! Indeed, this map shows lower scores that for the other emotions depicted, indicating that terrorism-related productions globally hold back on the watery eyes and do not globally depict sorrow or tragedy. On the other side of the emotional spectrum, joy and love are clearly under-represented. However, surprise shows the lowest scores across the globe indicating that these movies might not give much importance to delivering plot twists. Furthermore, if we look at the range of scores for the surprise emotion, it is by far the smallest one with all scores inferior to 0.07!  The same applies for love, for which the score across countries is always smaller than 0.1. It looks like we found the least popular emotions across terrorism-related movies. It looks like we found the least popular emotion across terrorism-related movies...
-All in all, terrorism-related movies seem to have a negative emotional tone, unsurprising given the nature of the subject. But, is it really homogeneous between all the regions?      
-***Regional emotional tendencies***  
-As we navigate over the globe, it appears that different regions add their specific touch when it comes to representing terrorism in the movies they produce. For instance, countries like Egypt, Senegal and Chilihave the highest scores associated to the anger emotion (0.54 and 0.48 respectively). On the other side, western countries such as Great-Britain or the USA, seem to focus more on fear and anger, being the two emotions with the highest scores acording to the maps.
-
-Then there are a few outliers; regions that have overall less cinematic productions, where the emotional tone could be influenced by a smaller sample of films. For example, Tunisia shows an extremely high joy score (0.87) in comparison to very low scores associated to the other emotions, and this is due to the fact that these scores are extracted from a single production, being a short documentary entitled "De Carthage à Carthage" on the Carthage Film Festival...
-
-**Time travelling through terror**
-{% include_relative assets/img/time_series.html %}
-The graph starts off with the cinematic equivalent of a mood swing. The early 1900's to early '20s show ups and downs -or oscillations- in all 6 emotions, more importantly in anger, fear and joy, with anger then fear being the top emotions. This probably mirrors the confusion experienced by a society in times of war.
-Moving forward to the mid-century, it is as if the world took a deep breath, steadying itself: The emotion scores slightly simmer down. What is most surprising is that this 'steady-state' remains up until the '2000s even though the world has experienced several wars and terrorist attacks during such a long time period...
-Perhaps it is more interesting to change perspectives to draw more concrete conclusions on our emotional rollercoaster of terror...
-
-{% include_relative assets/img/time_heatmap.html %}
-While the line graph allows us to track the oscillations of emotions over time, the heatmap offers an immediate visual comparison of the different emotions along the years.
-
-Looking at the heatmap, there seems to be a combination of emotions that dominate certain periods. The following patterns clearly stand out:
-
-- In the early period covered by our dataset, the heatmap shows the most vibrant palette of all covered periods. Indeed, the emotional swings are the most pronounced during this time period, showing a clear inferiority of the surprise, sadness and love emotional scores, but on the other side, a diversity in the depiction of anger, fear and...joy! Why is that? Well, nothing screams entertainment more than post-war times.
-- Moving into the mid-century, the heatmap seems to adopt a slightly cooler hue - indicating lower overall emotion scores - as if the world takes a break from overly emotional cinematic productions.
-- When we arrive to the 21st century, the heatmap looks like it has been hit by an anger and fear bomb, possibly due to the context of the rise of terrorism attacks around the world, such as 9/11 and the wars it lead to after.
+...
