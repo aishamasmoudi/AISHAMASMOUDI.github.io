@@ -37,7 +37,7 @@ Terrorism-themed movies often walk a fine line between capturing the audience's 
 ## 1. The Box Office Showdown: Terrorism vs. Other Movies
 We began our journey by examining the box office performance of terrorism-related movies and contrasting them with the rest of the cinematic landscape. The initial histogram we crafted displayed a clear trend: terrorism-related movies consistently outperformed others in terms of box office revenue.
 
-Histogram: Box Office Revenue
+{% include_relative assets/img/boxoffice_trends.html %}
 
 
 The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical scrutiny.
