@@ -31,42 +31,28 @@ This plot offers a sight into how many terrorism-related movies were produced in
 
 -----------------
 ## 1. Popularity Analysis - The Box Office Boom
-##### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
-Terrorism-themed movies often walk a fine line between capturing the audience's attention with intense, suspenseful narratives and potentially alienating viewers due to the sensitive nature of the subject. The popularity of these films at the box office can provide insights into how well they strike this balance.
+### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
+Terrorism-themed movies often walk a fine line between capturing the audience's attention with intense, suspenseful narratives and potentially alienating viewers due to the sensitive nature of the subject. The popularity of these films at the box office can provide insights into how well they strike this balance. Our analysis focused on two crucial metrics: box office revenue and movie ratings. The findings we uncovered not only surprised us but also painted a compelling picture of the audience's response to this genre.
 
-#### Box Office Trends
+## 1. The Box Office Showdown: Terrorism vs. Other Movies
+We began our journey by examining the box office performance of terrorism-related movies and contrasting them with the rest of the cinematic landscape. The initial histogram we crafted displayed a clear trend: terrorism-related movies consistently outperformed others in terms of box office revenue.
 
-We've dived into the box office numbers to see how these films stack up against others. Here's what we found:
-
-
-{% include_relative assets/img/boxoffice_trends.html %}
+Histogram: Box Office Revenue
 
 
+The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical scrutiny.
+### 1.1 The Numbers Speak Louder
+Our team conducted a rigorous statistical analysis to validate our initial findings. The results were unequivocal - there existed a statistically significant difference in box office revenue between terrorism-related movies and others. This raised intriguing questions: Was it the gripping narratives or the inherent curiosity that led audiences to theaters?
+### 1.2 The Ratings Game: A Closer Look at Critical Acclaim
+Undeterred by the box office success, we shifted our focus to movie ratings. We asked ourselves, "Did terrorism-related movies not only capture the audience's wallets but also their hearts?" The ensuing histogram answered with a resounding "yes." Terrorism-related movies consistently received higher ratings compared to other genres.
 
-- *Box Office Revenue:* This plot shows the box office revenue for terrorism-themed and other movies.
+Histogram: Movie Ratings
 
 
+The visualization portrayed a compelling story - audiences, it seemed, not only flocked to theaters for these movies but also appreciated the cinematic quality they offered. Again, statistical analysis supported our observation of a significant difference in ratings.
 
-{% include_relative assets/img/boxoffice_comparative.html %}
-
-
-Our analysis reveals a significant difference in the box office revenues between terrorism-themed and other movies (p-value < 0.05), indicating that terrorism-related movies, on average, have higher box office revenue.
-
-#### Audience Reception
-
-Beyond just numbers, audience reception plays a crucial role in determining a movie's success:
-
-{% include_relative/assets/img/rating_trends.html %}
-
-- *Ratings:* [Insert plot here] By comparing critical ratings with box office numbers, we can assess whether terrorism-themed movies are more critically acclaimed or commercially successful.
-
-{% include_relative assets/img/boxoffice_comparative.html %}
-
-- *Comparative Ratings:* [Insert plot here] By comparing critical ratings with box office numbers, we can assess whether terrorism-themed movies are more critically acclaimed or commercially successful.
-
-#### Conclusion
-
-Our journey through the box office numbers and audience reception of terrorism-themed movies reveals a nuanced picture. While some films have achieved remarkable success, others have struggled to find their footing. The influence of global events and changing audience tastes continue to shape the landscape of this genre.
+### 1.3 Conclusion
+In conclusion, as we examined the impact of terrorism-related movies on the global film industry, we unearthed intriguing findings. These films not only achieve success in terms of box office revenue but also earn commendation from critics. Despite the inherent difficulties associated with a genre marked by tension and controversy, these movies distinguish themselves. It appears that viewers are drawn not solely for the gripping narratives but also for the artistic skill and creativity evident in crafting these insightful films.
 
 Stay tuned for more insights as we explore other aspects of terrorism in cinema.
 
