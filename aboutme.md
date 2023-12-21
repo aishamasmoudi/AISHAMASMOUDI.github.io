@@ -48,9 +48,9 @@ The histogram vividly illustrated that, on average, terrorism-related movies gen
 Our team conducted a rigorous statistical analysis to validate our initial findings. The results were unequivocal - there existed a statistically significant difference in box office revenue between terrorism-related movies and others. This raised intriguing questions: Was it the gripping narratives or the inherent curiosity that led audiences to theaters?
 
 
-![My Image](/assets/img/boxoffice_comparative.png)
-
 {% include_relative assets/plots/boxoffice_comparative.html %}
+
+![My Image](/assets/img/boxoffice_comparative.png)
 
 
 ### 1.3 The Ratings Game: A Closer Look at Critical Acclaim
