@@ -379,8 +379,10 @@ This being said, it is clear that when it comes to the leaders in the film indus
 
 </p>
 Do genres align with their traditional emotional depiction when it comes to terrorism?
-No, it is not the stock market but the rollercoaster of emotions in movie genres across decades!
+No, it is not the stock market but the rollercoaster of emotions in movie genres across decades!  
+
 {% include_relative assets/img/genre_sentiments.html %} 
+
 Seriously, do genres align with their traditional emotional depiction when it comes to terrorism?
 Well, to keep it short, based on the emotion scores, most genres do align with their artistic direction: 
 
