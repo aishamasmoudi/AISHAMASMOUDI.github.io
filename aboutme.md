@@ -217,12 +217,14 @@ As we navigate over the globe, it appears that different regions add their speci
 Then there are a few outliers; regions that have overall less cinematic productions, where the emotional tone could be influenced by a smaller sample of films. For example, Tunisia shows an extremely high joy score (0.87) in comparison to very low scores associated to the other emotions, and this is due to the fact that these scores are extracted from a single production, being a short documentary entitled "De Carthage à Carthage" on the Carthage Film Festival...
 
 **Time travelling through terror**
+{% include_relative assets/img/time_series.html %}
+
 The Roaring '20s and The Great Depression ('20s-'30s):
 The graph starts off with the cinematic equivalent of a mood swing. The early 1900's to early '20s show ups and downs -or oscillations- in all 6 emotions, more importantly in anger, fear and joy, with anger then fear being the top emotions. This probably mirrors the confusion experienced by a society in times of war.
 Moving forward to the mid-century, it is as if the world took a deep breath, steadying itself: The emotion scores slightly simmer down. What is most surprising is that this 'steady-state' remains up until the '2000s even though the world has experienced several wars and terrorist attacks during such a long time period...
 Perhaps it is more interesting to change perspectives to draw more concrete conclusions on our emotional rollercoaster of terror...
 
-
+{% include_relative assets/img/time_heatmap.html %}
 While the line graph allows us to track the oscillations of emotions over time, the heatmap offers an immediate visual comparison of the different emotions along the years.
 
 Looking at the heatmap, the seems to be a combination of emotions that dominate certain periods. The following patterns clearly stand out:
