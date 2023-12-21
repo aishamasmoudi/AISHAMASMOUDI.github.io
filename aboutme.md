@@ -43,7 +43,7 @@ We began our journey by examining the box office performance of terrorism-relate
 The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical scrutiny.
 ### 1.2 The Numbers Speak Louder
 Our team conducted a rigorous statistical analysis to validate our initial findings. The results were unequivocal - there existed a statistically significant difference in box office revenue between terrorism-related movies and others. This raised intriguing questions: Was it the gripping narratives or the inherent curiosity that led audiences to theaters?
-
+![My Image](/assets/img/boxoffice_stat.png)
 ![My Image](/assets/img/boxoffice_comparative.png)
 ### 1.3 The Ratings Game: A Closer Look at Critical Acclaim
 Undeterred by the box office success, we shifted our focus to movie ratings. We asked ourselves, "Did terrorism-related movies not only capture the audience's wallets but also their hearts?" The ensuing histogram answered with a resounding "yes." Terrorism-related movies consistently received higher ratings compared to other genres.
@@ -53,7 +53,8 @@ Undeterred by the box office success, we shifted our focus to movie ratings. We 
 
 The visualization portrayed a compelling story - audiences, it seemed, not only flocked to theaters for these movies but also appreciated the cinematic quality they offered. Again, statistical analysis supported our observation of a significant difference in ratings.
 
-![My Image](/assets/img/boxoffice_comparative.png)
+![My Image](/assets/img/rating_stat.png)
+![My Image](/assets/img/rating_comparative.png)
 
 ### 1.4 Conclusion
 In conclusion, as we examined the impact of terrorism-related movies on the global film industry, we unearthed intriguing findings. These films not only achieve success in terms of box office revenue but also earn commendation from critics. Despite the inherent difficulties associated with a genre marked by tension and controversy, these movies distinguish themselves. It appears that viewers are drawn not solely for the gripping narratives but also for the artistic skill and creativity evident in crafting these insightful films.
