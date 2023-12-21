@@ -207,19 +207,17 @@ Remember the map of the Vader sentiments across all countries? Well, we did the 
 Starting with North America and European countries, they have slightly higher mean emotional scores than the rest of the world -like the tip of Mount Everest-, probably due to the tendency of these countries to emphasize on patriotism or heroism patterns. And then, we have more subtle emotional nuances in the Middle East and parts of Asia where the movies might deliver a somber depiction of terrorism in movies. It is also interesting to note that there a few emotional outliers - Cameroon, Senegal, and Uruguay – hitting the emotional jackpot with the highest scores, and - Morocco, Kenya, and Vietnam- keeping their empotions more reserved. But let's not get carried away with these numbers since these countries do not count among those with the highest number of cinematic productions. One must also note that this mosaic of emotions might look impressing at first sight, but it is in reality a subtle color gradient, with an extremely tight range of emotion scores hovering around 0.1666, indicating that all countries seem to be on the same page... How to make the cut? Let's dissect these mean scores into individual emotions and visualise their distribution.
 {% include_relative assets/img/map_individual_scores_bert.html %}
 
-With our fancy map of individual emotion scores across the world, we are all set to understand the depiction of terrorism-related movies. 
-*Global emotional tendencies*
+With our fancy map of individual emotion scores across the world, we are all set to understand the depiction of terrorism-related movies.   
+***Global emotional tendencies***  
 Unsurprisingly, the fear map is quite homogeneous, showcasing high scores for practically all the countries around the globe. One cannot help but find it comforting that we share a collective shiver down our spine when terrorist plots unfold on the big screen. Anger is also present around the world since its map illustration is quite heated, perhaps evocating storylines of retaliation. And sadness, well it caught the blues! Indeed, this map shows lower scores that for the other emotions depicted, indicating that terrorism-related productions globally hold back on the watery eyes and do not globally depict sorrow or tragedy. On the other side of the emotional spectrum, joy and love are clearly under-represented. However, surprise shows the lowest scores across the globe indicating that these movies might not give much importance to delivering plot twists. Furthermore, if we look at the range of scores for the surprise emotion, it is by far the smallest one with all scores inferior to 0.07!  The same applies for love, for which the score across countries is always smaller than 0.1. It looks like we found the least popular emotions across terrorism-related movies. It looks like we found the least popular emotion across terrorism-related movies...
-All in all, terrorism-related movies seem to have a negative emotional tone, unsurprising given the nature of the subject. But, is it really homogeneous between all the regions?
-*Regional emotional tendencies*
+All in all, terrorism-related movies seem to have a negative emotional tone, unsurprising given the nature of the subject. But, is it really homogeneous between all the regions?      
+***Regional emotional tendencies***  
 As we navigate over the globe, it appears that different regions add their specific touch when it comes to representing terrorism in the movies they produce. For instance, countries like Egypt, Senegal and Chilihave the highest scores associated to the anger emotion (0.54 and 0.48 respectively). On the other side, western countries such as Great-Britain or the USA, seem to focus more on fear and anger, being the two emotions with the highest scores acording to the maps.
 
 Then there are a few outliers; regions that have overall less cinematic productions, where the emotional tone could be influenced by a smaller sample of films. For example, Tunisia shows an extremely high joy score (0.87) in comparison to very low scores associated to the other emotions, and this is due to the fact that these scores are extracted from a single production, being a short documentary entitled "De Carthage à Carthage" on the Carthage Film Festival...
 
 **Time travelling through terror**
 {% include_relative assets/img/time_series.html %}
-
-The Roaring '20s and The Great Depression ('20s-'30s):
 The graph starts off with the cinematic equivalent of a mood swing. The early 1900's to early '20s show ups and downs -or oscillations- in all 6 emotions, more importantly in anger, fear and joy, with anger then fear being the top emotions. This probably mirrors the confusion experienced by a society in times of war.
 Moving forward to the mid-century, it is as if the world took a deep breath, steadying itself: The emotion scores slightly simmer down. What is most surprising is that this 'steady-state' remains up until the '2000s even though the world has experienced several wars and terrorist attacks during such a long time period...
 Perhaps it is more interesting to change perspectives to draw more concrete conclusions on our emotional rollercoaster of terror...
@@ -227,18 +225,9 @@ Perhaps it is more interesting to change perspectives to draw more concrete conc
 {% include_relative assets/img/time_heatmap.html %}
 While the line graph allows us to track the oscillations of emotions over time, the heatmap offers an immediate visual comparison of the different emotions along the years.
 
-Looking at the heatmap, the seems to be a combination of emotions that dominate certain periods. The following patterns clearly stand out:
+Looking at the heatmap, there seems to be a combination of emotions that dominate certain periods. The following patterns clearly stand out:
 
 - Early to Mid-20th Century: In the early period covered by our dataset, the heatmap shows the most vibrant palette of all covered periods. Indeed, the emotional swings are the most pronounced during this time period, showing a clear inferiority of the surprise, sadness and love emotional scores, but on the other side, a diversity in the depiction of anger, fear and...joy! Why is that? Well, nothing screams entertainment more than post-war times.
-- Mid-century blues: 
+- Mid-century: moving into the mid-century, 
 
-Moving into the mid-century, we see a cooling trend into the blues of sadness. If the heatmap is anything to go by, this was when cinema decided that if you can't beat the existential angst, why not join it? A time when 'feeling blue' was less of a mood and more of a mandatory state of being.
-
-Late 20th Century Emotional Diversity:
-As we approach the technicolor dreamcoat of the late 20th century, a sprinkling of joy and surprise begins to appear. It's as if filmmakers suddenly remembered that emotions could include things other than 'doom' and 'gloom.' The joy probably came from the collective relief of the Cold War ending without the world being reduced to a smoldering crater.
-
-The 21st Century Patchwork of Panic and Pessimism:
-And then we hit the 21st century, where the heatmap looks like it's been hit by a fear and sadness bomb. This is the era of the cinematic 'Big Bad'—terrorism—where moviegoers can't get enough of that spine-tingling sensation that comes from seeing the world teeter on the brink of disaster. It's like a haunted house experience, but you pay for a full movie ticket.
-
-The heatmap, in all its sarcastic glory, is a reminder that while life throws us curveballs, cinema throws us emotional grenades, each color explosion a testament to our love of feeling something, anything, as we consume our popcorn and ponder the state of the world. It's a glorious, multicolored tapestry that says, "Yes, we have all the feels, and we're not afraid to use them!"
-
+- When we arrive to the 21st century, the heatmap looks like it has been hit by an anger and fear bomb, possibly due to the context of the rise of terrorism attacks around the world, such as 9/11 and the wars it lead to after.
