@@ -32,6 +32,37 @@ This plot offers a sight into how many terrorism-related movies were produced in
 -----------------
 ## 1. Popularity Analysis - The Box Office Boom
 ##### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
+Terrorism-themed movies often walk a fine line between capturing the audience's attention with intense, suspenseful narratives and potentially alienating viewers due to the sensitive nature of the subject. The popularity of these films at the box office can provide insights into how well they strike this balance.
+
+#### Box Office Trends
+
+We've dived into the box office numbers to see how these films stack up against others. Here's what we found:
+
+{% include_relative assets/img/boxoffice_trends.html %}
+
+- *Box Office Revenue:* This plot shows the box office revenue for terrorism-themed and other movies.
+
+{% include_relative assets/img/boxoffice_comparative.html %}
+
+Our analysis reveals a significant difference in the box office revenues between terrorism-themed and other movies (p-value < 0.05), indicating that terrorism-related movies, on average, have higher box office revenue.
+
+#### Audience Reception
+
+Beyond just numbers, audience reception plays a crucial role in determining a movie's success:
+
+{% include_relative/assets/img/rating_trends.html %}
+
+- *Ratings:* [Insert plot here] By comparing critical ratings with box office numbers, we can assess whether terrorism-themed movies are more critically acclaimed or commercially successful.
+
+{% include_relative assets/img/boxoffice_comparative.html %}
+
+- *Comparative Ratings:* [Insert plot here] By comparing critical ratings with box office numbers, we can assess whether terrorism-themed movies are more critically acclaimed or commercially successful.
+
+#### Conclusion
+
+Our journey through the box office numbers and audience reception of terrorism-themed movies reveals a nuanced picture. While some films have achieved remarkable success, others have struggled to find their footing. The influence of global events and changing audience tastes continue to shape the landscape of this genre.
+
+Stay tuned for more insights as we explore other aspects of terrorism in cinema.
 
 -----------------
 ## 2. Genre Association - The Movie Genre Cocktail
