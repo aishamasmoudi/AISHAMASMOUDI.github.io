@@ -367,15 +367,15 @@ This being said, it is clear that when it comes to the leaders in the film indus
 
 </p>
 Do genres align with their traditional emotional depiction when it comes to terrorism?
-{% include_relative assets/img/genre_sentiments.html %} 
-
 No, it is not the stock market but the rollercoaster of emotions in movie genres across decades!
+{% include_relative assets/img/genre_sentiments.html %} 
+Seriously, do genres align with their traditional emotional depiction when it comes to terrorism?
 Well, to keep it short, based on the emotion scores, most genres do align with their artistic direction: 
 
-- Drama seems to have taken "dramatic" to heart, showcasing fluctuations in all emotions.
+- True to its nature, drama seems to have taken "dramatic" to heart, showcasing fluctuations in all emotions.
 - Anger and joy mirror themselves in action movies, with anger being the most represented emotion.
 
-It is interesting to focus on Comedy. Traditionnaly, comedy is not really influenced by the gravity of the subjects it portrays. However, for terrorism-related movies, anger is surpringly high, even higher than joy overall
+Now let's turn the spotlight on...Comedy! Traditionnaly, comedy is not really influenced by the gravity of the subjects it portrays. Yet, for terrorism-related movies, anger is surpringly high, even higher than joy overall -but this could be due to satiristic jokes around the subject of terrorism.
 
 
 
