@@ -38,11 +38,17 @@ Terrorism-themed movies often walk a fine line between capturing the audience's 
 
 We've dived into the box office numbers to see how these films stack up against others. Here's what we found:
 
+
 {% include_relative assets/img/boxoffice_trends.html %}
+
+
 
 - *Box Office Revenue:* This plot shows the box office revenue for terrorism-themed and other movies.
 
+
+
 {% include_relative assets/img/boxoffice_comparative.html %}
+
 
 Our analysis reveals a significant difference in the box office revenues between terrorism-themed and other movies (p-value < 0.05), indicating that terrorism-related movies, on average, have higher box office revenue.
 
