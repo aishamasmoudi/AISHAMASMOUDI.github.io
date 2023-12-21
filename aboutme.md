@@ -299,7 +299,12 @@ In summary, our thorough analysis of sentiment scores in terrorism-themed movies
 </p>
 
 <p>
-India distinguishes itself with a significant positive sentiment of approximately 27.59%, deviating from global trends. This suggests a nuanced approach in Indian cinema, where the genre’s unrestrained and uninhibited storytelling allows for a rich array of emotional expressions. Characters traverse a wide spectrum of feelings without the need for meticulous justification, enabling Hindi movies to tap into a reservoir of emotional vulnerability, particularly in male characters—a facet less frequently explored in Hollywood narratives. Conversely, Hollywood narratives typically unfold with calculated emotional intensity, reserving tear jerkers for narratives of profound significance and contributing to the cinematic canon as important works. The emotional terrain explored in Hollywood is often tethered to the gravity of the overarching plot, resulting in a more measured and controlled emotional resonance.
+India distinguishes itself with a significant positive sentiment of approximately 27.59%, deviating from global trends. We also encountered a cluster present for every genre that has an ascending tendency of sentiment score, meaning an increase in positive sentiments coupling this with the fact that the USA and the United Kingdom resemble each other so much, suggests a nuanced approach in Indian cinema . Here, we can list a few reason making Bollywood and Indian cinema in general special :
+
+- **Cultural tradition :** Bollywood cinema is deeply interwoven with the rich tapestry of Indian culture, traditions, and societal norms. Films often mirror the socio-cultural narratives prevalent in Indian society, highlighting familial ties, societal obligations,... The emotional arcs within these films are reflective of these themes, providing a cinematic expression of the societal narratives.
+- **Emotional Range:** In Bollywood, the "Fall-Rise" and "Cinderella" story arcs are particularly evocative, depicting protagonists who confront and surmount formidable obstacles. Such narratives resonate with the cultural values of resilience and perseverance, which are esteemed within Indian culture.
+- **Musical Influence:** The integration of music and dance is a hallmark of Bollywood storytelling, which can serve to amplify the emotional arcs of the narratives. For example, the depiction of a character's ascension from hardship to success—a "Steady Rise"—is often punctuated with exuberant musical interludes, intensifying the emotional resonance and providing a unique cinematic experience.
+
 </p>
 
 <p>
