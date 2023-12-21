@@ -227,7 +227,6 @@ While the line graph allows us to track the oscillations of emotions over time, 
 
 Looking at the heatmap, there seems to be a combination of emotions that dominate certain periods. The following patterns clearly stand out:
 
-- Early to Mid-20th Century: In the early period covered by our dataset, the heatmap shows the most vibrant palette of all covered periods. Indeed, the emotional swings are the most pronounced during this time period, showing a clear inferiority of the surprise, sadness and love emotional scores, but on the other side, a diversity in the depiction of anger, fear and...joy! Why is that? Well, nothing screams entertainment more than post-war times.
-- Mid-century: moving into the mid-century, 
-
+- In the early period covered by our dataset, the heatmap shows the most vibrant palette of all covered periods. Indeed, the emotional swings are the most pronounced during this time period, showing a clear inferiority of the surprise, sadness and love emotional scores, but on the other side, a diversity in the depiction of anger, fear and...joy! Why is that? Well, nothing screams entertainment more than post-war times.
+- Moving into the mid-century, the heatmap seems to adopt a slightly cooler hue - indicating lower overall emotion scores - as if the world takes a break from overly emotional cinematic productions.
 - When we arrive to the 21st century, the heatmap looks like it has been hit by an anger and fear bomb, possibly due to the context of the rise of terrorism attacks around the world, such as 9/11 and the wars it lead to after.
