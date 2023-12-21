@@ -22,7 +22,7 @@ Let's start by visualizing the counts of terrorism-related movies through time:
 We can observe a growing trend in the production of terrorism-related movies over the years. This could suggest a growing interest in terrorism movies in cinema, but it could however be related to the smaller number of movies provided by the CMU dataset in the 1907-1940s period. There is a dramatic increase in the early 21st century period, where the bars reach their highest points. This could be reflective of global events and the increased prevalence of terrorism in news media, telling us about the role of terrorism in the public consciousness during these times, which may have influence the film industry.
 
 ![My Image](/assets/img/terrorism_movies_countries.png)
-**figure out how to insert interactive plots**
+
 
 As we can see, the US, followed by India, United Kingdom and Japan, are the most important countries when it comes to producing terrorism-related movies. This plot is of course a little biased, since the Hollywood and Bollywood are the most important movie production industries in the world, and they by nature produce more movies than other countries.
 
@@ -33,6 +33,9 @@ This plot offers a sight into how many terrorism-related movies were produced in
 ---
 
 ## 1. Popularity Analysis - The Box Office Boom
+Welcome to 'The Box Office Boom' – our explosive journey into the popularity analysis of terrorism movies! 🎥💥📈
+
+Think of this section as our own red carpet into the world of blockbusters and hidden gems. We're not just talking numbers; we're diving into what makes audiences tick, cheer, and sometimes, jump out of their seats. It's a wild ride through ticket sales, audience reactions, and those jaw-dropping moments that make these films a hit or a miss.
 ### Are terrorism-themed movies the box office's best friend or its awkward acquaintance? 
 Terrorism-themed movies often walk a fine line between capturing the audience's attention with intense, suspenseful narratives and potentially alienating viewers due to the sensitive nature of the subject. The popularity of these films at the box office can provide insights into how well they strike this balance. Our analysis focused on two crucial metrics: box office revenue and movie ratings. The findings we uncovered not only surprised us but also painted a compelling picture of the audience's response to this genre.
 
@@ -43,7 +46,7 @@ We began our journey by examining the box office performance of terrorism-relate
 {% include_relative assets/plots/boxoffice_trends.html %}
 
 
-The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical scrutiny.
+The histogram vividly illustrated that, on average, terrorism-related movies generated higher box office revenue than their counterparts. However, understanding the significance of this observation required statistical analysis.
 ### 1.2 The Numbers Speak Louder
 Our team conducted a rigorous statistical analysis to validate our initial findings. The results were unequivocal - there existed a statistically significant difference in box office revenue between terrorism-related movies and others. This raised intriguing questions: Was it the gripping narratives or the inherent curiosity that led audiences to theaters?
 
@@ -98,22 +101,22 @@ Now, for a more significant comparison, we will focus on the top 10 most common 
 
 ![My Image](/assets/img/proportion_genres.png)
 
-1. What genres are more prevalent in terrorism related movies than in non-terrorism related movies?
+What genres are more prevalent in terrorism related movies than in non-terrorism related movies?
 
 - Action and Thriller: These genres seem to be more prevalent in terrorism-related movies when compared to non-terrorism-related movies.
 - Adventure and Horror: While not as dominant as Drama, Action, or Thriller, these genres also appear more frequently in terrorism-related movies than in non-terrorism-related ones.
 - Drama: This genre has a very high proportion in both terrorism and non-terrorism related movies.
 
-2. How do these genre preferences for terrorism movies reflect cultural attitudes towards terrorism? Do they suggest that certain genres are better suited to explore terrorism-related themes?
+How do these genre preferences for terrorism movies reflect cultural attitudes towards terrorism? Do they suggest that certain genres are better suited to explore terrorism-related themes?
 
-- Action and Thriller: These genres are traditionally associated with high energy, suspense, and conflict, which are common elements in terrorism narratives. The prevalence of Action and Thriller genres in terrorism-related movies could reflect the intensity and high stakes often associated with terrorism.
-- Adventure and Horror: These genres could be more prevalent due to the way they can incorporate elements of the unknown and fear, which can reflect unpredictability and fear associated with acts of terrorism.
-- Drama: While Drama is prevalent in both types of movies, its slightly reduced prevalence in terrorism-related movies compared to non-terrorism-related ones might indicate that while dramatic storytelling is universal, terrorism movies might need the inclusion of action or thriller elements to better portray the specific themes associated to terrorism.
+- **Action and Thriller:** These genres are traditionally associated with high energy, suspense, and conflict, which are common elements in terrorism narratives. The prevalence of Action and Thriller genres in terrorism-related movies could reflect the intensity and high stakes often associated with terrorism.
+- **Adventure and Horror:** These genres could be more prevalent due to the way they can incorporate elements of the unknown and fear, which can reflect unpredictability and fear associated with acts of terrorism.
+- **Drama:** While Drama is prevalent in both types of movies, its slightly reduced prevalence in terrorism-related movies compared to non-terrorism-related ones might indicate that while dramatic storytelling is universal, terrorism movies might need the inclusion of action or thriller elements to better portray the specific themes associated to terrorism.
 
-3. Do these genre trends in terrorism-related movies reflect a global influence, or are they more indicative of Western cinematic trends?
+Do these genre trends in terrorism-related movies reflect a global influence, or are they more indicative of Western cinematic trends?
    We discuss this in **section 2.2**.
 
-4. Evolution Over Time: How have the representations of terrorism in various genres evolved over time? We discuss this in **section 2.3**.
+Evolution Over Time: How have the representations of terrorism in various genres evolved over time? We discuss this in **section 2.3**.
 
 ### 2.2 Does the prevalence of certain genres of terrorism-related movies change between world regions? And between countries?
 
@@ -139,7 +142,7 @@ Thriller, Action and Horror have a similar peak, roughly from 2005 to 2015. Dram
 
 To conclude, the representation of terrorism in various genres have the same overall evolution over time, with an increase in the number of terrorism-movies of all genres. Some genres stand out with specific peaks, notably World cinema in the 1990s.
 
-### Conclusion:
+### 2.4 Conclusion:
 
 And that's a wrap on our Genre Analysis!
 
@@ -159,7 +162,11 @@ Now, grab your popcorn and your protective gear; we're moving on to the next exp
 
 ## 3. Topic Patterns : Unraveling the Thematic Tapestry of Terrorism in Cinema
 
-##### Last but not least, we delve into the thematic jungle of terrorism movies. Are we spotting patterns, or is it as unpredictable as a plot twist in a Hitchcock film?
+Alright, movie buffs and data detectives, gear up for a bit of fun in the serious world of terrorism movies! 🕵️‍♂️🍿💥
+
+In our topic modeling adventure, we're not just crunching numbers, we're uncovering the secret sauce that spices up these films. It's like digging through a treasure chest of words, phrases, and dialogues to discover what makes these movies tick, boom, and sometimes, unexpectedly, make us chuckle.
+
+So, let's take a light-hearted leap into this deep dive. Who knows? We might just find that amidst the chaos and drama, there's a quirky line or two waiting to be discovered.
 
 ### 3.1 The Art of Decoding Themes: A Peek Behind the Curtain
 
@@ -204,7 +211,7 @@ Expanding our lens to ten relevant countries, we uncover a spectrum of themes. F
 
 The American and Indian cinemas stand out for their distinct approach to terrorism. American films often mirror the country's political stance, portraying terrorism through a lens of counterterrorism operations and strategic maneuvers. In contrast, Indian cinema delves into the emotional and societal impact of terrorism, painting a vivid picture of its ripple effects on human relationships and communities.
 
-### Conclusion: A World of Stories Told Differently
+### 3.3 Conclusion: A World of Stories Told Differently
 
 Our exploration into the thematic depths of terrorism-themed movies reveals the profound impact of cinema in mirroring the complexities of our world. Each film, from every corner of the globe, weaves a narrative that transcends mere storytelling, reflecting the nuanced interplay of cultural, historical, and societal influences.
 
@@ -288,32 +295,37 @@ Transitioning to the action genre, similar narrative structures emerge, with ins
 
 ![My Image](/assets/img/thriller_clusters_page-0001.jpg)
 
-<p>
+
 Transitioning to the thriller genre posed additional challenges in interpretation. For the United Kingdom (GBR), the analysis revealed a "Tragedy" cluster 1 (Riches to Rags), an uninterpretable cluster 2, and a "Man in the Hole" cluster for cluster 3. The intricacies of these clusters suggest diverse emotional arcs, making it a complex genre to analyse comprehensively.
 In the case of the United States (USA), the first cluster appears to follow an "Oedipus" narrative, followed by a "Rags to Riches" arc. Cluster 2 aligns with a "Cinderella" narrative, while the third cluster exhibits a "Cinderella" arc at the beginning and end, resembling a "Man in the Hole" emotional trajectory. This diversity within the clusters showcases the multifaceted nature of storytelling in the thriller genre.
 For India (IND), the first two clusters exhibit a "Man in the Hole" emotional arc, while the third cluster, initially appearing dissimilar, surprisingly aligns with the trends observed in the drama and action genres. This remarkable consistency indicates a recurring thematic pattern, where the emotional trajectory comprises an "Oedipus" phase followed by a "Cinderella" arc. Lastly, Latin American countries (LAT) exhibit distinctive emotional arcs in the thriller genre. Cluster 1 aligns with a “Man in the Hole” narrative, while cluster 2 follows a “Rags to Riches” emotional arc. This genre-specific analysis sheds light on the diversity and complexity of emotional narratives within terrorism-themed movies, offering a nuanced perspective on how different countries approach storytelling in this challenging genre.
-</p>
 
-<p>
+
+
 In summary, our thorough analysis of sentiment scores in terrorism-themed movies has uncovered distinct patterns and notable variations across key countries. The United States, India, and the United Kingdom stand out as focal points, providing substantial datasets for nuanced exploration. Additionally, South and Central American countries exhibit intriguing sentiment differentials, prompting a collective analysis for meaningful insights.
-</p>
 
-<p>
-India distinguishes itself with a significant positive sentiment of approximately 27.59%, deviating from global trends. This suggests a nuanced approach in Indian cinema, where the genre’s unrestrained and uninhibited storytelling allows for a rich array of emotional expressions. Characters traverse a wide spectrum of feelings without the need for meticulous justification, enabling Hindi movies to tap into a reservoir of emotional vulnerability, particularly in male characters—a facet less frequently explored in Hollywood narratives. Conversely, Hollywood narratives typically unfold with calculated emotional intensity, reserving tear jerkers for narratives of profound significance and contributing to the cinematic canon as important works. The emotional terrain explored in Hollywood is often tethered to the gravity of the overarching plot, resulting in a more measured and controlled emotional resonance.
-</p>
 
-<p>
+
+India distinguishes itself with a significant positive sentiment of approximately 27.59%, deviating from global trends. We also encountered a cluster present for every genre that has an ascending tendency of sentiment score, meaning an increase in positive sentiments coupling this with the fact that the USA and the United Kingdom resemble each other so much, suggests a nuanced approach in Indian cinema . Here, we can list a few reason making Bollywood and Indian cinema in general special :
+
+- **Cultural tradition :** Bollywood cinema is deeply interwoven with the rich tapestry of Indian culture, traditions, and societal norms. Films often mirror the socio-cultural narratives prevalent in Indian society, highlighting familial ties, societal obligations,... The emotional arcs within these films are reflective of these themes, providing a cinematic expression of the societal narratives.
+- **Emotional Range:** In Bollywood, the "Fall-Rise" and "Cinderella" story arcs are particularly evocative, depicting protagonists who confront and surmount formidable obstacles. Such narratives resonate with the cultural values of resilience and perseverance, which are esteemed within Indian culture.
+- **Musical Influence:** The integration of music and dance is a hallmark of Bollywood storytelling, which can serve to amplify the emotional arcs of the narratives. For example, the depiction of a character's ascension from hardship to success—a "Steady Rise"—is often punctuated with exuberant musical interludes, intensifying the emotional resonance and providing a unique cinematic experience.
+
+
+
+
 Looking ahead, as we employ advanced techniques like BERT, we anticipate uncovering deeper insights and hidden nuances in the data. Our commitment to precision and thorough exploration remains steadfast as we unravel the intricacies of sentiment and storytelling dynamics in terrorism-themed movies.🔍
-</p>
 
-<p>
+
+
 And now, ladies and gentlemen, let me introduce the all mighty analytical beast (drum roll 🥁): <code>DistilBERT-base-uncased-emotion</code>. This distilled version of our heavyweight champ, BERT, is quicker on its data feet, but still manages to provide just as much insights on the emotional depiction of movies as its bigger brother. Thanks to its world-class pre-training on datasets labeled with emotional states, it predicts the emotional tone of a text. How is that? Well, for each sentence in a given text, it outputs 6 scores, all between 0 and 1, and each one referring to specific emotions: Sadness 😢, joy 😁, love🥰, anger😡, fear😰 and Surprise 😲!  Enough with the introductions, let's unpack the emotional suitcase that terrorism-related movies have carried.
-</p>
 
-<p>
+
+
 <strong>Global mood swings: an emotional journey through the cinematic lense of terror</strong>
 Remember the map of the Vader sentiments across all countries? Well, we did the same exact thing...But this time, with the emotion predictions we obtained from running our high-tech secret weapon, just for fun, before diving into the emotions independently!
-</p>
+
 
 {% include_relative assets/img/map_meanscores_bert.html %}
 
