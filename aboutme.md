@@ -171,10 +171,7 @@ Therefore, we decided to check out the genre frequency of the USA movies alone, 
 
 Here is a bar chart for the counts of movies per genre in the USA.
 
-<p align="center">
-  <img src="/assets/img/counts_USA_tmovies_per_genre.png" alt="General Topics in Global Cinema"/>
-  <br><em>Fig. 1: General Topics in Global Cinema</em>
-</p>
+![My Image](/assets/img/counts_USA_tmovies_per_genre.png)
 
 The prevalence of genres like Drama and Thriller in many regions might indicate a universal appeal of intense narratives that deal with complex human emotions and ethical dilemmas, which are often at the core of terrorism-related stories. In contrast, regions where certain genres are more popular may reflect regional storytelling traditions or preferences, such as a penchant for Action/Adventure in the Americas, which could be tied to the Hollywood influence and its history of high-stakes blockbusters.
 
