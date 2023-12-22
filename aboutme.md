@@ -469,3 +469,6 @@ Our Sentiment Analysis revealed that emotions in these films are as volatile as 
 As we roll the credits on this project, remember: the next time you watch a terrorism-themed movie, it's not just about the booms and bangs. It's a journey through a complex landscape of genres, emotions, and cultural narratives. And who knows, maybe the next big blockbuster will be a data-driven analysis of movie trends – now that would be a real plot twist! 🎬💥🍿
 
 ![My Image](/assets/img/nailed_it.png)
+
+
+Thank you and Happy Holidays!
