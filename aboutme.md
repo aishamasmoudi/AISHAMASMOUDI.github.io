@@ -118,11 +118,12 @@ The null hypothesis in a Chi-Square Test of Independence states that there is no
 Null Hypothesis (H0): There is no significant association between the genre of a movie and its classification as terrorism-related.
 
 We find the following results:
+
 ![My Image](/assets/img/chi_square.png)
 
 The p-value is lower than the significance level, meaning that we reject the null hypothesis. There is a significant association between genre and terrorism-related movies. Now, let's look at this association in a bit more detail by extracting the top 10 most prevalent genres of terrorism movies.
 
-#### Part 2: Frequency Analysis
+#### Part 2: Frequency Analysis
 For both non-terrorism- and terrorism-related movies, we have gathered the top 10 most common genres. We then plot the counts of both types of movies against the genres. We obtain the figure below.
 
 ![My Image](/assets/img/freq_analysis_t_vs_nont_movies.png)
