@@ -291,7 +291,7 @@ Just like a master detective decodes cryptic messages, we're here to unravel the
 
 So, strap in, data daredevils! Our Sentimental Rollercoaster: The Explosive Edition is on the launchpad, and we assure you the only thing in jeopardy is your ordinary view of movie emotions. 🎬💥
 
-### 4.1 Do the emotional tones in the cinematic representation of terrorism differ between specific countries/regions ?
+### 4.1 Overview of the Sentiment Scores
 
 To gain an initial perspective, we can generate a map depicting the average sentiment score for each country within our dataset. The sentiment scores were computed utilizing Vader sentiment analysis, a powerful tool that assigns scores ranging from -1 to 1. Vader sentiment analysis specializes in evaluating the polarity of text, offering insights into whether the expressed sentiment is positive, negative, or neutral. Scores closer to -1 indicate a more negative sentiment, scores near 1 suggest a more positive sentiment, and scores around 0 signify a neutral sentiment. This approach provides a nuanced understanding of the emotional tone embedded in the narratives of terrorism-themed movies across different countries.
 
@@ -322,6 +322,8 @@ Notably, negative sentiments are prominently represented within terrorism-themed
 An intriguing observation arises when analysing the sentiments of terrorism-themed movies, particularly in the case of India. Unlike other focus countries, India stands out with a noteworthy positive sentiment of approximately 27.59%. This positive sentiment is more than two times higher than that observed in other countries and regions of interest.
 The prevalence of negative sentiments aligns with the nature of terrorism-themed movies, often portraying intense and dramatic narratives. However, India's distinctive positive sentiment introduces an interesting dynamic. This unique trend suggests that Indian cinema, even when depicting terrorism, tends to incorporate elements that evoke positive emotions or portray resilience in the face of adversity.
 As we delve deeper into our analysis, exploring the thematic elements, plot structures, and character dynamics of terrorism-themed movies, we anticipate uncovering nuanced insights that contribute to a richer understanding of how different countries approach and depict this genre. India's positive sentiment, in particular, warrants further investigation to unravel the factors contributing to this distinctive trend.
+
+### 4.2 Emotional Arcs Analysis
 
 To extract more detailed insights, we aim to cluster the emotional arcs of movies, considering both country-specific and genre-specific contexts. It is crucial to note that attempting to cluster movies from diverse genres together may not yield meaningful results due to the inherent variation in storytelling approaches. Consequently, we will focus on drama, action, and thriller genres, given their prevalence in terrorism-themed movies, as shown in **Section 2: Genre Analysis**.
 
@@ -380,7 +382,7 @@ Looking ahead, as we employ advanced techniques like BERT, we anticipate uncover
 And now, ladies and gentlemen, let me introduce the all mighty analytical beast (drum roll 🥁): <code>DistilBERT-base-uncased-emotion</code>. This distilled version of our heavyweight champ, BERT, is quicker on its data feet, but still manages to provide just as much insights on the emotional depiction of movies as its bigger brother. Thanks to its world-class pre-training on datasets labeled with emotional states, it predicts the emotional tone of a text. How is that? Well, for each sentence in a given text, it outputs 6 scores, all between 0 and 1, and each one referring to specific emotions: Sadness 😢, joy 😁, love🥰, anger😡, fear😰 and Surprise 😲!  
 Enough with the introductions, let's unpack the emotional suitcase that terrorism-related movies have carried.
 
-### Global mood swings: an emotional journey through the cinematic lense of terror
+### 4.3 Global mood swings: an emotional journey through the cinematic lense of terror
 Remember the map of the Vader sentiments across all countries? Well, we did the same exact thing...But this time, with the emotion predictions we obtained from running our high-tech secret weapon, and with each emotion independently!
 
 {% include_relative assets/img/map_individual_scores_bert.html %}
@@ -398,7 +400,7 @@ As we navigate over the globe, it appears that different regions add their speci
 
 Then there are a few **outliers**; regions that have overall less cinematic productions, where the emotional tone could be influenced by a smaller sample of films. For example, Tunisia shows an extremely high joy score (0.87) in comparison to very low scores associated to the other emotions, and this is due to the fact that these scores are extracted from a single production, being a short documentary entitled "De Carthage à Carthage" on the Carthage Film Festival...
 
-### Time travelling through terror
+### 4.4 Time travelling through terror
 
 {%include_relative assets/img/time_series.html%} 
 The graph starts off with the cinematic equivalent of a mood swing. The early 1900's to early '20s show ups and downs -or oscillations- in all 6 emotions, more importantly in anger, fear and joy, with anger then fear being the top emotions. This probably mirrors the confusion experienced by a society in times of war.
@@ -416,7 +418,7 @@ Looking at the heatmap, there seems to be a combination of emotions that dominat
 - Moving into the **mid-century**, the heatmap seems to adopt a slightly cooler hue - indicating lower overall emotion scores - as if the world takes a break from overly emotional cinematic productions.
 - When we arrive to the **21st century**, the heatmap looks like it has been hit by an anger and fear bomb, possibly due to the context of the rise of terrorism attacks around the world, such as 9/11 and the wars it lead to after.  
 
-### The emotional cinematic portrayal of terror across Cultures
+### 4.5 The emotional cinematic portrayal of terror across Cultures
 {% include_relative assets/img/bar_movies.html %}  
 This bar chart was obtained after selecting the top 10 movies with the highest number of productions and it shows how these specific countries depict terrorism in their movies. Overall, this bar chart confirms the fact that anger seems to be the most represented emotion in terrorism-related movies, directly followed by fear. As an example, the United States and the United-Kingdom, the countries with the most production, are like twins with nearly-identical emotional distributions showing high fear and anger as well as very low sadness scores.
 
@@ -426,7 +428,7 @@ India's bar chart resembles a Bollywood dance—colorful, vibrant, and full of e
 
 This being said, it is clear that when it comes to the leaders in the film industry, they seem to agree on the emotional depiction of terrorism-related movies, with some exceptions putting their grain of salt.
 
-### Do genres align with their traditional emotional depiction when it comes to terrorism?
+### 4.6 Do genres align with their traditional emotional depiction when it comes to terrorism?
 No, it is not the stock market but the rollercoaster of emotions in movie genres across decades!  
 
 {% include_relative assets/img/genre_sentiments.html %} 
