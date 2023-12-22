@@ -94,7 +94,7 @@ The visualization portrayed a compelling story - audiences, it seemed, not only 
 ![My Image](/assets/img/rating_comparative_2.png)
 
 ### 1.4 Conclusion
-In conclusion, as we examined the impact of terrorism-related movies on the global film industry, we unearthed intriguing findings. These films not only achieve success in terms of box office revenue but also earn commendation from critics. Despite the inherent difficulties associated with a genre marked by tension and controversy, these movies distinguish themselves. It appears that viewers are drawn not solely for the gripping narratives but also for the artistic skill and creativity evident in crafting these insightful films.
+In conclusion, as we examined the impact of terrorism-related movies on the global film industry, we unearthed intriguing findings. These films not only achieve success in terms of box office revenue but also earn commendation from critics. Despite the inherent difficulties associated with a genre marked by tension and controversy, these movies distinguish themselves. 
 
 Stay tuned for more insights as we explore other aspects of terrorism in cinema. Next up: Genre Analysis!
 
@@ -226,11 +226,9 @@ In our topic modeling adventure, we're not just crunching numbers, we're uncover
 
 So, let's take a light-hearted leap into this deep dive. Who knows? We might just find that amidst the chaos and drama, there's a quirky line or two waiting to be discovered.
 
-### 3.1 The Art of Decoding Themes: A Peek Behind the Curtain
+### 3.1 Topic Modeling with LDA: The Heart of Our Analysis
 
 In the world of terrorism-themed movies, each frame, each dialogue carries a universe of themes. To unravel this complex web, we turn to Latent Dirichlet Allocation (LDA), a model that treats topics as a blend of words, and movies as a blend of topics. Our mission? To decode the underlying themes that shape these movies.
-
-### 3.2 Topic Modeling with LDA: The Heart of Our Analysis
 
 The magic of LDA transforms our collection of terrorism-themed movies into a rich mosaic of topics, each a complex tapestry of words, revealing hidden narratives.
 
@@ -247,7 +245,10 @@ Words like "attack," "police," "man," "kill," and "escape" dominate the scene, p
 
 #### Country-Specific Narratives: Diverse Stories Unfold
 
-Now, we zoom in on specific countries - the USA, the UK, India, and other key film-producing nations.
+Now, we zoom in on specific countries - the USA, the UK, India, and other key film-producing nations. By looking to the top ten relevant countries, we uncover a spectrum of themes. From the poignant tales of personal loss in French cinema to the shadowy underworlds depicted in Japanese films, each country's cinematic portrayal of terrorism is a mirror to its cultural heartbeat and historical scars.
+
+#### American vs. Indian Narratives: A Study in Contrast
+
 
 <p align="center">
   <img src="/assets/img/USA_TOPICS.png" alt="Themes in American Terrorism Movies"/>
@@ -261,15 +262,9 @@ Now, we zoom in on specific countries - the USA, the UK, India, and other key fi
 
 American movies often deploy themes of tactical operations and military might, mirroring the nation's real-world engagement with global security issues. Indian films, on the other hand, interweave terrorism with rich emotional and familial narratives, reflecting a cinema culture deeply rooted in personal stories and societal fabric.
 
-#### Spotlight on Diversity: Beyond Borders
-
-Expanding our lens to ten relevant countries, we uncover a spectrum of themes. From the poignant tales of personal loss in French cinema to the shadowy underworlds depicted in Japanese films, each country's cinematic portrayal of terrorism is a mirror to its cultural heartbeat and historical scars.
-
-#### American vs. Indian Narratives: A Study in Contrast
-
 The American and Indian cinemas stand out for their distinct approach to terrorism. American films often mirror the country's political stance, portraying terrorism through a lens of counterterrorism operations and strategic maneuvers. In contrast, Indian cinema delves into the emotional and societal impact of terrorism, painting a vivid picture of its ripple effects on human relationships and communities.
 
-### 3.3 Conclusion: A World of Stories Told Differently
+### 3.2 Conclusion: A World of Stories Told Differently
 
 Our exploration into the thematic depths of terrorism-themed movies reveals the profound impact of cinema in mirroring the complexities of our world. Each film, from every corner of the globe, weaves a narrative that transcends mere storytelling, reflecting the nuanced interplay of cultural, historical, and societal influences.
 
