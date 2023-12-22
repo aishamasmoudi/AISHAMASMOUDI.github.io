@@ -91,7 +91,6 @@ The visualization portrayed a compelling story - audiences, it seemed, not only 
 
 {% include_relative assets/plots/rating_comparative.html %}
 
-
 ![My Image](/assets/img/rating_comparative_2.png)
 
 ### 1.4 Conclusion
@@ -327,7 +326,7 @@ An intriguing observation arises when analysing the sentiments of terrorism-them
 The prevalence of negative sentiments aligns with the nature of terrorism-themed movies, often portraying intense and dramatic narratives. However, India's distinctive positive sentiment introduces an interesting dynamic. This unique trend suggests that Indian cinema, even when depicting terrorism, tends to incorporate elements that evoke positive emotions or portray resilience in the face of adversity.
 As we delve deeper into our analysis, exploring the thematic elements, plot structures, and character dynamics of terrorism-themed movies, we anticipate uncovering nuanced insights that contribute to a richer understanding of how different countries approach and depict this genre. India's positive sentiment, in particular, warrants further investigation to unravel the factors contributing to this distinctive trend.
 
-To extract more detailed insights, we aim to cluster the emotional arcs of movies, considering both country-specific and genre-specific contexts. It is crucial to note that attempting to cluster movies from diverse genres together may not yield meaningful results due to the inherent variation in storytelling approaches. Consequently, we will focus on drama, action, and thriller genres, given their prevalence in terrorism-themed movies.
+To extract more detailed insights, we aim to cluster the emotional arcs of movies, considering both country-specific and genre-specific contexts. It is crucial to note that attempting to cluster movies from diverse genres together may not yield meaningful results due to the inherent variation in storytelling approaches. Consequently, we will focus on drama, action, and thriller genres, given their prevalence in terrorism-themed movies, as shown in **Section 2: Genre Analysis**.
 
 To delve into the analysis of this plot type, we will use a terminology established by the American writer Kurt Vonnegut. Vonnegut's framework demonstrates the identification of six primary story plots, commonly known as story arcs. These arcs encompass a diverse array of narrative structures that significantly influence the emotional trajectory of a story. Kurt Vonnegut's work showcases that stories, irrespective of their genres, tend to follow specific patterns, contributing to a richer understanding of storytelling dynamics.
 The six main arcs are (where Rise mean a rise in happiness):
