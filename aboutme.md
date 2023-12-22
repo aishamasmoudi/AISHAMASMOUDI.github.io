@@ -335,13 +335,13 @@ The six main arcs are (where Rise mean a rise in happiness):
 - **Steady Rise:** “Rags to Riches”
 - **Rise-Fall:** “Icarus”
 
-![My Image](/assets/img/drama_cluster_page-0001.jpg)
+![My Image](/assets/img/drama_cluster.jpg)
 
 Examining the clusters within the drama genre reveals intriguing patterns. The first cluster, observed for the United Kingdom (GBR), the United States (USA), and India (IND), appears to follow the same narrative curve but on different scales, emphasising the universality of certain emotional arcs across these countries.
 Furthermore, GBR and USA exhibit similar clusters for the second and third clusters, resembling the "Man in the Hole" (cluster 2) and "Cinderella" (cluster 3) arcs. This consistency across countries suggests shared storytelling structures. Notably, the third cluster for India introduces a compelling dynamic, starting with a very low sentiment (-0.4), descending even lower before rising and oscillating at the end. This nuanced emotional trajectory prompts further exploration to uncover potential thematic correlations.
 In contrast, the clusters for Latin American countries pose challenges in interpretation, possibly due to limited data and its quality.
 
-![My Image](/assets/img/action_cluster_page-0001.jpg)
+![My Image](/assets/img/action_cluster.jpg)
 
 Transitioning to the action genre, similar narrative structures emerge, with instances of "Cinderella" clusters (cluster 1 for GBR, cluster 3 for USA; cluster 2 for IND, and possibly cluster 2 for LAT) and "Man in the Hole" clusters (cluster 3 for GBR, cluster 1 for USA, IND, and LAT). Notably, the third cluster for India in the action genre closely mirrors the corresponding cluster in the drama genre. This alignment may contribute to the observed difference in positive sentiment percentages for India, highlighting the importance of exploring cross-genre patterns in emotional arcs.
 
@@ -351,7 +351,7 @@ Transitioning to the action genre, similar narrative structures emerge, with ins
     }
 </style>
 
-![My Image](/assets/img/thriller_clusters_page-0001.jpg)
+![My Image](/assets/img/thriller_cluster.jpg)
 
 
 Transitioning to the thriller genre posed additional challenges in interpretation. For the United Kingdom (GBR), the analysis revealed a "Tragedy" cluster 1 (Riches to Rags), an uninterpretable cluster 2, and a "Man in the Hole" cluster for cluster 3. The intricacies of these clusters suggest diverse emotional arcs, making it a complex genre to analyse comprehensively.
