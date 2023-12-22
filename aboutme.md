@@ -8,12 +8,14 @@ share-img: /assets/img/main_img.jpg
 use-site-title: true
 ---
 
-Throughout history, humans have used violence and intimidation, especially against civilians, in the pursuit of political and ideological aims. This idea defines terrorism, which has had a significant impact on society and culture. It is fair to assume that cinema portrays diverse cultures, lifestyles and issues, reflecting society, its joys, struggles, and complexities. Through films, we witness stories that resonate with our own experiences, making us feel connected and understood, and allowing us to learn more about what is happening in our world. In this context, terrorism has been portrayed in multiple movies. It is interesting to investigate the impact that terrorism has had on cinema, using the CMU Movie Corpus dataset and focusing on emotional depiction, genre association, topic patterns, as well as popularity across continents and countries.
-
-## An Explosive Data Set💥
-
 Welcome to "Explosive Narratives: Terrorism through the Cinematic Lens" – where we light the fuse on the dynamite topic of terrorism in movies, without any real explosions, of course! Picture this: you're sitting in your comfy chair, popcorn in hand, ready to dive deep into the world of cinema where the only thing more thrilling than a car chase is our data-driven analysis.
 So, grab your 3D glasses, because we're about to embark on a cinematic journey that's part data, part drama, and totally explosive – metaphorically speaking, of course! 🍿🎬💥
+
+Throughout history, humans have used violence and intimidation, especially against civilians, in the pursuit of political and ideological aims. This idea defines terrorism, which has had a significant impact on society and culture. It is fair to assume that cinema portrays diverse cultures, lifestyles and issues, reflecting society, its joys, struggles, and complexities. Through films, we witness stories that resonate with our own experiences, making us feel connected and understood, and allowing us to learn more about what is happening in our world. In this context, terrorism has been portrayed in multiple movies. It is interesting to investigate the impact that terrorism has had on cinema, using the CMU Movie Corpus dataset and focusing on popularity across continents and countries, genre association, topic patterns, as well as emotional depiction.
+
+---
+
+## An Explosive Data Set💥
 
 ### Introduction to the Data Set
 
