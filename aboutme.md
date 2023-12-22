@@ -238,7 +238,7 @@ Our first foray is into the general landscape. We examine movies from across the
 
 <p align="center">
   <img src="/assets/img/general_topics.png" alt="General Topics in Global Cinema"/>
-  <br><em>Fig. 1: General Topics in Global Cinema</em>
+  <br><em>General Topics in Global Cinema</em>
 </p>
 
 Words like "attack," "police," "man," "kill," and "escape" dominate the scene, painting a picture of action, conflict, and suspense – the quintessential elements of terrorism movies. These terms are the brushstrokes of a universal cinematic language, illustrating the common narrative threads that bind diverse cultures in their portrayal of terrorism.
@@ -252,12 +252,12 @@ Now, we zoom in on specific countries - the USA, the UK, India, and other key fi
 
 <p align="center">
   <img src="/assets/img/USA_TOPICS.png" alt="Themes in American Terrorism Movies"/>
-  <br><em>Fig. 2: Themes in American Terrorism Movies</em>
+  <br><em>Themes in American Terrorism Movies</em>
 </p>
 
 <p align="center">
   <img src="/assets/img/INDIA_TOPICS.png" alt="Themes in Indian Terrorism Movies"/>
-  <br><em>Fig. 3: Themes in Indian Terrorism Movies</em>
+  <br><em>Themes in Indian Terrorism Movies</em>
 </p>
 
 American movies often deploy themes of tactical operations and military might, mirroring the nation's real-world engagement with global security issues. Indian films, on the other hand, interweave terrorism with rich emotional and familial narratives, reflecting a cinema culture deeply rooted in personal stories and societal fabric.
