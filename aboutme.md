@@ -139,7 +139,7 @@ We see that:
 
 Now, for a more significant comparison, we will focus on the top 10 most common genres in terrorism movies, and we will look at the proportion of non-terrorism and terrorism movies for these genres.
 
-![My Image](/assets/img/proportion_per_genre.png)
+![My Image](/assets/img/proportion_per_genre2.png)
 
 What genres are more prevalent in terrorism related movies than in non-terrorism related movies?
 - Action and Thriller: These genres seem to be more prevalent in terrorism-related movies when compared to non-terrorism-related movies.
