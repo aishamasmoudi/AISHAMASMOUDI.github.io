@@ -49,7 +49,7 @@ The next plot offers a sight into how many terrorism-related movies were produce
 
 {% include_relative assets/img/map_t_movies_per_country.html %}
 
-Again, we see that the US and India dominate with respect to the the number of terrorism-movies produced.
+Again, we see that the US and India dominate with respect to the number of terrorism-movies produced.
 
 Alright, now that we've got to know our data a little better, it's time to dive into the fiery depths of analysis! First up: the Popularity Analysis. 
 
@@ -441,7 +441,7 @@ Seriously, to answer the question and keep it short, based on the emotion scores
 Now let's turn the spotlight on...Comedy! Traditionnaly, comedy is not really influenced by the gravity of the subjects it portrays. Yet, for terrorism-related movies, anger is surpringly high, even higher than joy overall -but this could be due to satiristic jokes around the subject of terrorism.
 
 Overall, the emotion scores we obtained are quite special: they do not simply reflect the usual emotional routes of the genres, but the take them-twist them and turn them all the way around, giving us a portrayal as complicated as the subject itself.  
- 
+
 ---
 
 ## Explosive Narratives: Terrorism through the Cinematic Lens
