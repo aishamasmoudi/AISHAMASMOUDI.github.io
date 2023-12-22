@@ -452,18 +452,16 @@ Seriously, to answer the question and keep it short, based on the emotion scores
 
 Now let's turn the spotlight on...Comedy! Traditionnaly, comedy is not really influenced by the gravity of the subjects it portrays. Yet, for terrorism-related movies, anger is surpringly high, even higher than joy overall -but this could be due to satiristic jokes around the subject of terrorism.
 
-You think we are done? Well, brace yourself because we still have one trick up our sleeve.
+Overall, the emotion scores we obtained are quite special: they do not simply reflect the usual emotional routes of the genres, but the take them-twist them and turn them all the way around, giving us a portrayal as complicated as the subject itself.   
 
-Up until now, we did not look into the evolution of emotional depiction in plots. Yet, this is precisely what allows us to have an idea about story arcs. Let's dive in!
+
+You think we are done? Well, brace yourself because we still have one trick up our sleeve. Up until now, we did not look into the evolution of emotional depiction in plots. Yet, this is precisely what allows us to have an idea about story arcs. Let's dive in!
 
 ### The Emotional journey of terrorism-related movies
 
 {% include_relative assets/img/story_arcs_countries.html %} 
 
 First and foremost, let's set the stage for how we orchestrated this data. We crafted a list of la crème de la crème terrorism-related movies by selecting the top 10 movies with the highest emotional scores for each one of our 6 emotion categories. Then, for each country in our crafted list, we averaged the emotional scores sentence by sentence, to visualise the narratives' emotional pulse. And well, it looks like every country took 'emotional journey' way too literally.
-
-
-
 
 
 ---
