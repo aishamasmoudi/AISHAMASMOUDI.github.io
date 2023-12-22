@@ -29,7 +29,6 @@ Our mission includes four parts:
 - Topic Modeling: We dig through words, phrases and dialogues to discover the topics underlying terrorism movies. It's like a treasure hunt, but with more words and less gold.
 - Emotional Depiction: Here, we're going to dive into the emotional rollercoaster of terrorism-themed movies.
 
-In order to analyze only terrorism-related movies, we filter the data set to only keep movies that contain keywords relating to terrorism in their plot summary.
 Let's start by getting to know our data. Shall we?🍿💣📊
 
 ### Basic Visualizations
@@ -52,8 +51,10 @@ The next plot offers a sight into how many terrorism-related movies were produce
 
 Again, we see that the US and India dominate with respect to the the number of terrorism-movies produced.
 
-Alright, now that we've got to know our data a little better, it's time to dive into the fiery depths of analysis! 
-First up: the Popularity Analysis. Lights, camera, analyze! 🍿💥🎬
+Alright, now that we've got to know our data a little better, it's time to dive into the fiery depths of analysis! First up: the Popularity Analysis. 
+
+Lights, camera, analyze! 🍿💥🎬
+
 ---
 
 ## 1. Popularity Analysis - The Box Office Boom
@@ -113,7 +114,7 @@ So buckle up data nerds, as we dive bomb into the world of movie genres. It's go
 #### Part 1: Chi-Square Independency Test
 To know whether particular genres are used to depict terrorism-themed movies, we first test whether there is a significant association between movie genres and their portrayal of terrorism. We do a Chi-Square Independency Test that can validate whether any observed association between genres and terrorism portrayal is statistically significant, rather than due to random chance.
 
-We have associated each genre with a unique integer, and associated to each movie a binary variable. Its value is 1 if the movie is terrorism-relatd, and it is 0 if it is not.
+We have associated each genre with a unique integer, and associated to each movie a binary variable. Its value is 1 if the movie is terrorism-related, and it is 0 if it is not.
 
 The null hypothesis in a Chi-Square Test of Independence states that there is no association or relationship between the two variables being tested. In the context of our analysis, the null hypothesis is formulated as follows:
 
