@@ -377,36 +377,37 @@ Looking ahead, as we employ advanced techniques like BERT, we anticipate uncover
 
 
 
-And now, ladies and gentlemen, let me introduce the all mighty analytical beast (drum roll 🥁): <code>DistilBERT-base-uncased-emotion</code>. This distilled version of our heavyweight champ, BERT, is quicker on its data feet, but still manages to provide just as much insights on the emotional depiction of movies as its bigger brother. Thanks to its world-class pre-training on datasets labeled with emotional states, it predicts the emotional tone of a text. How is that? Well, for each sentence in a given text, it outputs 6 scores, all between 0 and 1, and each one referring to specific emotions: Sadness 😢, joy 😁, love🥰, anger😡, fear😰 and Surprise 😲!  Enough with the introductions, let's unpack the emotional suitcase that terrorism-related movies have carried.
+And now, ladies and gentlemen, let me introduce the all mighty analytical beast (drum roll 🥁): <code>DistilBERT-base-uncased-emotion</code>. This distilled version of our heavyweight champ, BERT, is quicker on its data feet, but still manages to provide just as much insights on the emotional depiction of movies as its bigger brother. Thanks to its world-class pre-training on datasets labeled with emotional states, it predicts the emotional tone of a text. How is that? Well, for each sentence in a given text, it outputs 6 scores, all between 0 and 1, and each one referring to specific emotions: Sadness 😢, joy 😁, love🥰, anger😡, fear😰 and Surprise 😲!  
+Enough with the introductions, let's unpack the emotional suitcase that terrorism-related movies have carried.
 
 
 
-<strong>Global mood swings: an emotional journey through the cinematic lense of terror</strong>
-Remember the map of the Vader sentiments across all countries? Well, we did the same exact thing...But this time, with the emotion predictions we obtained from running our high-tech secret weapon, just for fun, before diving into the emotions independently!
-
-
-{% include_relative assets/img/map_meanscores_bert.html %}
-
-<p>
-Starting with North America and European countries, they have slightly higher mean emotional scores than the rest of the world -like the tip of Mount Everest-, probably due to the tendency of these countries to emphasize on patriotism or heroism patterns. And then, we have more subtle emotional nuances in the Middle East and parts of Asia where the movies might deliver a somber depiction of terrorism in movies. It is also interesting to note that there a few emotional outliers - Cameroon, Senegal, and Uruguay – hitting the emotional jackpot with the highest scores, and - Morocco, Kenya, and Vietnam- keeping their empotions more reserved. But let's not get carried away with these numbers since these countries do not count among those with the highest number of cinematic productions. One must also note that this mosaic of emotions might look impressing at first sight, but it is in reality a subtle color gradient, with an extremely tight range of emotion scores hovering around 0.1666, indicating that all countries seem to be on the same page... How to make the cut? Let's dissect these mean scores into individual emotions and visualise their distribution.
+### Global mood swings: an emotional journey through the cinematic lense of terror
+Remember the map of the Vader sentiments across all countries? Well, we did the same exact thing...But this time, with the emotion predictions we obtained from running our high-tech secret weapon, and with each emotion independently!
 </p>
 
 {% include_relative assets/img/map_individual_scores_bert.html %}
 
 <p>
-With our fancy map of individual emotion scores across the world, we are all set to understand the depiction of terrorism-related movies.   
-<strong>Global emotional tendencies</strong>  
+With our fancy map of individual emotion scores around the world, we are all set to understand the depiction of terrorism-related movies.
+
+ - **Global emotional tendencies**
+
 Unsurprisingly, the fear map is quite homogeneous, showcasing high scores for practically all the countries around the globe. One cannot help but find it comforting that we share a collective shiver down our spine when terrorist plots unfold on the big screen. Anger is also present around the world since its map illustration is quite heated, perhaps evocating storylines of retaliation. And sadness, well it caught the blues! Indeed, this map shows lower scores that for the other emotions depicted, indicating that terrorism-related productions globally hold back on the watery eyes and do not globally depict sorrow or tragedy. On the other side of the emotional spectrum, joy and love are clearly under-represented. However, surprise shows the lowest scores across the globe indicating that these movies might not give much importance to delivering plot twists. Furthermore, if we look at the range of scores for the surprise emotion, it is by far the smallest one with all scores inferior to 0.07!  The same applies for love, for which the score across countries is always smaller than 0.1. It looks like we found the least popular emotion across terrorism-related movies...
 All in all, terrorism-related movies seem to have a negative emotional tone, unsurprising given the nature of the subject. But, is it really homogeneous between all the regions?      
-<strong>Regional emotional tendencies</strong>  
+
+ - **Regional emotional tendencies**
+
 As we navigate over the globe, it appears that different regions add their specific touch when it comes to representing terrorism in the movies they produce. For instance, countries like Egypt, Senegal and Chilihave the highest scores associated to the anger emotion (0.54 and 0.48 respectively). On the other side, western countries such as Great-Britain or the USA, seem to focus more on fear and anger, being the two emotions with the highest scores acording to the maps.
 
-Then there are a few outliers; regions that have overall less cinematic productions, where the emotional tone could be influenced by a smaller sample of films. For example, Tunisia shows an extremely high joy score (0.87) in comparison to very low scores associated to the other emotions, and this is due to the fact that these scores are extracted from a single production, being a short documentary entitled "De Carthage à Carthage" on the Carthage Film Festival...
+Then there are a few **outliers**; regions that have overall less cinematic productions, where the emotional tone could be influenced by a smaller sample of films. For example, Tunisia shows an extremely high joy score (0.87) in comparison to very low scores associated to the other emotions, and this is due to the fact that these scores are extracted from a single production, being a short documentary entitled "De Carthage à Carthage" on the Carthage Film Festival...
 
 </p>
 
 <p>
-<strong>Time travelling through terror</strong>
+
+### Time travelling through terror
+
 {%include_relative assets/img/time_series.html%} 
 The graph starts off with the cinematic equivalent of a mood swing. The early 1900's to early '20s show ups and downs -or oscillations- in all 6 emotions, more importantly in anger, fear and joy, with anger then fear being the top emotions. This probably mirrors the confusion experienced by a society in times of war.
 Moving forward to the mid-century, it is as if the world took a deep breath, steadying itself: The emotion scores slightly simmer down. What is most surprising is that this 'steady-state' remains up until the '2000s even though the world has experienced several wars and terrorist attacks during such a long time period...
@@ -421,33 +422,39 @@ While the line graph allows us to track the oscillations of emotions over time, 
 Looking at the heatmap, there seems to be a combination of emotions that dominate certain periods. The following patterns clearly stand out:
 <p>
 
-- In the early period covered by our dataset, the heatmap shows the most vibrant palette of all covered periods. Indeed, the emotional swings are the most pronounced during this time period, showing a clear inferiority of the surprise, sadness and love emotional scores, but on the other side, a diversity in the depiction of anger, fear and...joy! Why is that? Well, nothing screams entertainment more than post-war times.
+- In the **early period** covered by our dataset, the heatmap shows the most vibrant palette of all covered periods. Indeed, the emotional swings are the most pronounced during this time period, showing a clear inferiority of the surprise, sadness and love emotional scores, but on the other side, a diversity in the depiction of anger, fear and...joy! Why is that? Well, nothing screams entertainment more than post-war times.
 
-- Moving into the mid-century, the heatmap seems to adopt a slightly cooler hue - indicating lower overall emotion scores - as if the world takes a break from overly emotional cinematic productions.
-- When we arrive to the 21st century, the heatmap looks like it has been hit by an anger and fear bomb, possibly due to the context of the rise of terrorism attacks around the world, such as 9/11 and the wars it lead to after.  
+- Moving into the **mid-century**, the heatmap seems to adopt a slightly cooler hue - indicating lower overall emotion scores - as if the world takes a break from overly emotional cinematic productions.
+- When we arrive to the **21st century**, the heatmap looks like it has been hit by an anger and fear bomb, possibly due to the context of the rise of terrorism attacks around the world, such as 9/11 and the wars it lead to after.  
 <p>
-{% include_relative assets/img/bar_movies.html %}  
 
+### The emotional cinematic portrayal of terror across Cultures
+{% include_relative assets/img/bar_movies.html %}  
 This bar chart was obtained after selecting the top 10 movies with the highest number of productions and it shows how these specific countries depict terrorism in their movies. Overall, this bar chart confirms the fact that anger seems to be the most represented emotion in terrorism-related movies, directly followed by fear. As an example, the United States and the United-Kingdom, the countries with the most production, are like twins with nearly-identical emotional distributions showing high fear and anger as well as very low sadness scores.
 
-***Zoom on India:*** Why focus on one emotion when you can have them all?
+***🔍 Zoom on India 🇮🇳 :*** **Why focus on one emotion when you can have them all?**
+
 India's bar chart resembles a Bollywood dance—colorful, vibrant, and full of energy- it is high on every emotion, having the highest joy score among all countries represented. What is interesting to see is that India seems to showcase every emotional aspect in these movies, even though they are related to a heavy subject -terrorism-. India therefore shows a unique storytelling style, embracing the complexity of life - nothing is completely black or white. As said before, this is clearly reflective of a broader trend within Indian cinema.
 
 This being said, it is clear that when it comes to the leaders in the film industry, they seem to agree on the emotional depiction of terrorism-related movies, with some exceptions putting their grain of salt.
 
 </p>
-Do genres align with their traditional emotional depiction when it comes to terrorism?
+
+### Do genres align with their traditional emotional depiction when it comes to terrorism?
 No, it is not the stock market but the rollercoaster of emotions in movie genres across decades!  
 
 {% include_relative assets/img/genre_sentiments.html %} 
 
-Seriously, do genres align with their traditional emotional depiction when it comes to terrorism?
-Well, to keep it short, based on the emotion scores, most genres do align with their artistic direction: 
+Seriously, to answer the question and keep it short, based on the emotion scores, most genres do align with their artistic direction: 
 
-- True to its nature, drama seems to have taken "dramatic" to heart, showcasing fluctuations in all emotions.
+- True to its nature, drama seems to have taken "dramatic" to heart 🎭, showcasing fluctuations in all emotions.
 - Anger and joy mirror themselves in action movies, with anger being the most represented emotion.
 
 Now let's turn the spotlight on...Comedy! Traditionnaly, comedy is not really influenced by the gravity of the subjects it portrays. Yet, for terrorism-related movies, anger is surpringly high, even higher than joy overall -but this could be due to satiristic jokes around the subject of terrorism.
+
+You think we are done? Well, brace yourself because we still have one trick up our sleeve.
+
+Up until now, we did not look into the evolution of emotional depiction in plots. Yet, this is precisely what allows us to have an idea about story arcs. So, we crafted a  
 
 ---
 
